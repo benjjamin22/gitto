@@ -21,10 +21,10 @@ async function getData() {
         listItems.push(div)
         div.innerHTML = `<a style="text-decoration:none;" onclick="movieselected('${user.id}')"href="#">
         <div class="movie">
-        <img src="${user.Picturepath}">
+        <img src="${user.picturepath}">
         <div class="movie-info">
       <h3>${user.Name}</h3>
-      <span>${user.Validity}</span>
+      <span>${user.validity}</span>
         </div></div> </a>
         `
         main.appendChild(div)
@@ -77,10 +77,10 @@ async function getmovie() {
         li.innerHTML = `
             <div class="user-profile">
                 <div class="profile-top">
-                    <img src="${user.Picturepath}">
+                    <img src="${user.picturepath}">
                     <div class="profile-info">
                         <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${user.Name}</h2>  
-                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${user.RegNo}
+                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${user.reg}
                         <<<</h1>
                     </div>
                 
