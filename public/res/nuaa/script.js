@@ -1,10 +1,7 @@
 const search = document.getElementById('search');
 const main = document.getElementById('main');
 const form = document.getElementById('form')
-
-
 url = '/api'
-
 
 const listItems = []
 
