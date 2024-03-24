@@ -29,7 +29,7 @@ class Login {
                 console.log(dat);
 
 
-                fetch(URLY)
+                fetch('https://benjjamin22.github.io/filter/NAMS(IMSU)/tg.json"')
                     .then((response) => response.json())
                     .then((data) => {
                         if (data.username === dat.username && data.password === dat.password) {
