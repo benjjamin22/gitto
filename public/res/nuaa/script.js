@@ -1,8 +1,10 @@
 const search = document.getElementById('search');
 const main = document.getElementById('main');
 const form = document.getElementById('form')
-const myapi = process.env.myapi
-url = 'myapi'
+
+
+url = '/api'
+
 
 const listItems = []
 
