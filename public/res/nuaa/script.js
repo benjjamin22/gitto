@@ -88,7 +88,7 @@ async function getmovie() {
                 <div class="profile-bottom">
                     <div style="flex-direction:column;margin:-11px 0px;" class="profile-info"> 
                         <h1>- IMO STATE UNIVERSITY -</h1>
-                            <h1 style="margin-top:-3px;color:red;font-size:12px;">- MICROBIOLOGY STUDENTS ASSOCIATION -</h1>
+                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  MICROBIOLOGY STUDENTS ASSOCIATION -</h1>
                         </div>
                     </div>
                     <div class="profile-bottom">
@@ -103,11 +103,11 @@ async function getmovie() {
                             <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1rem;">STATUS/VALIDITY</h1>
                                 <div style="flex-direction:column;"class="profile-info">
                                 <h1 style="color:black;padding:0 .8rem;margin-top:-5px;">${user.Status}</h1>
-                                <h1 style="margin:0px;color:red;font-size:12px;margin-bottom:0px;line-height:.5rem;">- ${user.Validity} -</h1>
+                                <h1 style="margin:0px;color:red;font-size:12px;margin-bottom:0px;line-height:.5rem;">- ${user.validity} -</h1>
                                 </div>
                             </div>
                             <div style="width:25%;margin:0 1px;">
-                                <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">SEX</h1>
+                                <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">GENDER</h1>
                                 <div class="profile-info">
                                 <h1 style="color:black;padding:0 .8rem;">${user.sex}</h1>
                                 </div>
@@ -123,7 +123,7 @@ async function getmovie() {
                             <div class="social">
                             <a href=""><i class="fab fa-facebook "></i></a>
                             <a href=""><i class="fab fa-instagram "></i></a>
-                            <a href="https://wa.me/${user.state}"><i class="fab fa-tiktok "></i></a>
+                            <a href=""><i class="fab fa-tiktok "></i></a>
                             <a href=""><i class="fab fa-twitter "></i></a>
                         </div>
                         </div>
