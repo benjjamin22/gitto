@@ -121,11 +121,11 @@ async function getmovie() {
                             </div>
                                                     
                             <div class="social">
-                            <a href=""><i class="fab fa-facebook "></i></a>
-                            <a href=""><i class="fab fa-instagram "></i></a>
-                            <a href=""><i class="fab fa-tiktok "></i></a>
-                            <a href=""><i class="fab fa-twitter "></i></a>
-                        </div>
+                            <a href=""><i class="fab fa-facebook "> <div class="overview">${user.localgovt}</div></i></a>
+                            <<a href=""><i class="fab fa-instagram "> <div class="overview">${user.localgovt}</div></i></a>
+                            <<a href=""><i class="fab fa-tiktok "> <div class="overview">${user.localgovt}</div></i></a>
+                            <<a href=""><i class="fab fa-twitter "> <div class="overview">${user.localgovt}</div></i></a>
+                            </div>
                         </div>
                     </div>       
                 </div>
