@@ -111,3 +111,31 @@ body {
 .profile-bottom .profile-info:hover {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    width: 100px;
+    float: left;
+    background: #dbdbdb;
+    line-height: 2em;
+    text-align: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+ul li span {
+    display: block;
+}
+
+ul li ul {
+    display: none;
+}
+
+.show {
+    display: block;
+}

@@ -106,6 +106,36 @@ body {
     box-shadow: rgb(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 03)0px 8px 16px -8px;
 }
 
+#fb {
+    display: none;
+}
+
+#ins {
+    display: none;
+}
+
+#tiktok {
+    display: none;
+}
+
+#twitter {
+    display: none;
+}
+
+button {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1.7em;
+    height: 1.7em;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 2em;
+    color: #dcdcdc;
+    box-shadow: rgb(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 03)0px 8px 16px -8px;
+}
+
 .social a:nth-child(1) {
     background-color: rgb(28, 88, 158);
 }
@@ -128,23 +158,6 @@ body {
     font-size: 20px;
 }
 
-.overview {
-    background-color: #fff;
-    padding: 2rem;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    transform: translateX(101%);
-    overflow-y: auto;
-    transition: transform 0.3s ease-in;
-}
-
-.social a:hover .overview {
-    transform: translateX(0);
-}
-
 .profile-bottom .profile-info {
     background-color: white;
     padding: .5rem;
@@ -161,4 +174,57 @@ body {
 
 .profile-bottom .profile-info:hover {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.over {
+    background-color: #fff;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 70%;
+    transform: translateX(101%);
+    overflow-y: auto;
+    transition: transform 0.3s ease-in;
+}
+
+.moviee {
+    width: 50rem;
+    height: 50rem;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb:hover .over {
+    transform: translatex(0);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    width: 80px;
+    float: left;
+    background: #dbdbdb;
+    line-height: 2em;
+    text-align: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+ul li span {
+    display: block;
+}
+
+ul li ul {
+    display: none;
+}
+
+.show {
+    display: block;
 }

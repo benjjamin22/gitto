@@ -25,7 +25,7 @@ async function getData() {
         <div class="movie-info">
       <h3>${user.Name}</h3>
       <span>${user.validity}</span>
-        </div></div> </a>
+        </div></div> 
         `
         main.appendChild(div)
 
@@ -62,7 +62,6 @@ function movieselected(id) {
     return false;
 
 }
-
 
 async function getmovie() {
     let movieId = sessionStorage.getItem('movieId');
@@ -118,15 +117,36 @@ async function getmovie() {
                             <div style="flex-direction:column;"class="profile-info"> 
                                 <h1 style="margin-top:-1px;">- ${user.state} -</h1>
                                 <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.localgovt} -</h1>
-                            </div>
-                                                    
-                            <div class="social">
-                            <a href=""><i class="fab fa-facebook "> <div class="overview">${user.localgovt}</div></i></a>
-                            <<a href=""><i class="fab fa-instagram "> <div class="overview">${user.localgovt}</div></i></a>
-                            <<a href=""><i class="fab fa-tiktok "> <div class="overview">${user.localgovt}</div></i></a>
-                            <<a href=""><i class="fab fa-twitter "> <div class="overview">${user.localgovt}</div></i></a>
-                            </div>
-                        </div>
+                            </div> 
+                            
+                            <ul style="margin-bottom:5rem;">
+                                <li>
+                                    <span class="dropDown">item 1</span>
+                                    <ul style="width:20rem;background-color: aqua;height: 2rem;justify-content: center; text-align: center;">
+                                        <li style="justify-content: center;width:26.6rem;background-color: aqua;margin-left: -3rem;">${user.localgovt}</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="dropDown">Item 2</span>
+                                    <ul style="width:5rem;background-color: red;height: 2rem;justify-content: center; text-align: center;">
+                                        <li style="justify-content: center;width:27rem;background-color: red;margin-left: -8.5rem;">${user.localgovt}</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="dropDown">Item 3</span>
+                                    <ul style="width:5rem;background-color: orangered;height: 2rem;justify-content: center; text-align: center;">
+                                        <li style="justify-content: center;width:27rem;background-color:orangered;margin-left: -13.8rem;">${user.localgovt}</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="dropDown">Item 4</span>
+                                    <ul style="width:5rem;background-color: tomato;height: 2rem;justify-content: center; text-align: center;">
+                                        <li style="justify-content: center;width:27rem;background-color: tomato;margin-left: -19.7rem;">${user.localgovt}</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                    </div>
+                       
                     </div>       
                 </div>
             </div>`
