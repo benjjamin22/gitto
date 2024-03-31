@@ -118,35 +118,7 @@ async function getmovie() {
                             <div style="flex-direction:column;"class="profile-info"> 
                                 <h1 style="margin-top:-1px;">- ${user.State} -</h1>
                                 <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.LocalGovernment} -</h1>
-                            </div>
-
-                            <ul>
-        <li>
-            <span class="dropDown">item 1</span>
-            <ul style="width:20rem;background-color: aqua;height: 2rem;justify-content: center; text-align: center;">
-                <li style="justify-content: center;width:26.6rem;background-color: aqua;">Sub Item 9</li>
-            </ul>
-        </li>
-        <li>
-            <span class="dropDown">Item 2</span>
-            <ul style="width:5rem;background-color: red;height: 2rem;justify-content: center; text-align: center;">
-                <li style="justify-content: center;width:27rem;background-color: red;margin-left: -7rem;">Sub Item 3</li>
-            </ul>
-        </li>
-        <li>
-            <span class="dropDown">Item 3</span>
-            <ul style="width:5rem;background-color: orangered;height: 2rem;justify-content: center; text-align: center;">
-                <li style="justify-content: center;width:27rem;background-color:orangered;margin-left: -13.8rem;">Sub Item 3</li>
-            </ul>
-        </li>
-        <li>
-            <span class="dropDown">Item 4</span>
-            <ul style="width:5rem;background-color: tomato;height: 2rem;justify-content: center; text-align: center;">
-                <li style="justify-content: center;width:27rem;background-color: tomato;margin-left: -20.7rem;">Sub Item 3</li>
-            </ul>
-        </li>
-    </ul>
-                                                    
+                            </div>                                        
                             <div class="social">
                             <a href=""><i class="fab fa-facebook "></i></a>
                             <a href=""><i class="fab fa-instagram "></i></a>
