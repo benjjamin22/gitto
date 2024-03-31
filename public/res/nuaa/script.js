@@ -119,29 +119,29 @@ async function getmovie() {
                                 <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.localgovt} -</h1>
                             </div> 
                             
-                            <ul style="margin-bottom:5rem;">
+                            <ul style="margin-bottom:7rem;">
                                 <li>
-                                    <img class="dropDown" src="./btn.jpg"style="width:70px;height:70px; border-radius:50px;"></span>
+                                    <img class="dropDown" src="./facebook.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:20rem;background-color: aqua;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:26.6rem;background-color: aqua;margin-left: -3rem;">${user.localgovt}</li>
+                                        <li style="justify-content: center;width:26.6rem;background-color: rgb(28, 88, 158);margin-left: -5rem;color:white">${user.localgovt}</li>
                                     </ul>
                                 </li>
                                 <li>
-                                <img class="dropDown" src="./btn.jpg"style="width:70px;height:70px; border-radius:50px;"></span>
+                                <img class="dropDown" src="./instagrame.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:5rem;background-color: red;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:27rem;background-color: red;margin-left: -8.5rem;">${user.localgovt}</li>
+                                        <li style="justify-content: center;width:27rem;background-color: red;margin-left:-9rem;color:white">${user.localgovt}</li>
                                     </ul>
                                 </li>
                                 <li>
-                                <img class="dropDown" src="./btn.jpg"style="width:70px;height:70px; border-radius:50px;"></span>
+                                <img class="dropDown" src="./tiktok.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:5rem;background-color: orangered;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:27rem;background-color:orangered;margin-left: -13.8rem;">${user.localgovt}</li>
+                                        <li style="justify-content: center;width:27rem;background-color:#313131;margin-left: -13.8rem;color:white">${user.localgovt}</li>
                                     </ul>
                                 </li>
                                 <li>
-                                <img class="dropDown" src="./btn.jpg"style="width:70px;height:70px; border-radius:50px;"></span>
+                                <img class="dropDown" src="./twitter.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:5rem;background-color: tomato;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:27rem;background-color: tomato;margin-left: -19.7rem;">${user.localgovt}</li>
+                                        <li style="justify-content: center;width:27rem;background-color: rgb(28, 88, 158);margin-left: -19.7rem;color:white">${user.localgovt}</li>
                                     </ul>
                                 </li>
                             </ul>
