@@ -1,4 +1,5 @@
-url = '/login'
+//url = '/login'
+const url = process.env.LOGIN
 
 class Login {
     constructor(form, fields) {
