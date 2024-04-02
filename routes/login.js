@@ -1,29 +1,21 @@
 const url = require('url')
 const express = require('express')
 const router = express.Router()
-const needle = require('needle')
-const apicache = require('apicache')
+const fs = require('fs');
+const bodyParser = require('body-parser')
 
-// Env vars
-const API_BASE_URL = process.env.LOGIN
+// Load user data from JSON file
+let userData = JSON.parse(fs.readFileSync('users.json'));
 
-// Init cache
-let cache = apicache.middleware
-
-router.get('/', cache('2 minutes'), async(req, res, next) => {
-    try {
-        const apiRes = await needle('get', `${API_BASE_URL}`)
-        const data = apiRes.body
-
-        // Log the request to the public API
-        if (process.env.NODE_ENV !== 'production') {
-            console.log(`REQUEST: ${API_BASE_URL}`)
-        }
-
-        res.status(200).json(data)
-    } catch (error) {
-        next(error)
+// Login route
+router.post('/', (req, res) => {
+    const { username, password } = req.body;
+    const user = userData.users.find(user => user.username === username && user.password === password);
+    if (user) {
+        res.send('Login successful!');
+    } else {
+        res.status(401).send('Invalid username or password');
     }
-})
+});
 
 module.exports = router
