@@ -1,4 +1,8 @@
 url = '/login'
+<<<<<<< HEAD
+=======
+
+>>>>>>> af0fbfc82cc63726156daed7f60c7056a2e03e15
 class Login {
     constructor(form, fields) {
         this.form = form;
