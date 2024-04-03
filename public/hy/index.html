@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        form {
+            margin: 0 auto;
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="loginForm">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+    </form>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the form from submitting
+
+            // Get input values
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            // Send a request to check login credentials
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/login");
+            xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+
+                    // Redirect to dashboard or another page
+                    window.location.href = "/res";
+                } else {
+                    alert(xhr.responseText);
+                }
+            };
+            xhr.send(JSON.stringify({
+                username: username,
+                password: password
+            }));
+        });
+    </script>
+</body>
+
+</html>
