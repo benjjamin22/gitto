@@ -5,7 +5,7 @@ const fs = require('fs');
 const bodyParser = require('body-parser')
 
 // Load user data from JSON file
-let userData = JSON.parse(fs.readFileSync('users.json'));
+let userData = JSON.parse(fs.readFileSync('db/users.json'));
 
 // Login route
 router.post('/', (req, res) => {
