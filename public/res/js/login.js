@@ -1,8 +1,6 @@
 url = '/login'
-<<<<<<< HEAD
-=======
 
->>>>>>> af0fbfc82cc63726156daed7f60c7056a2e03e15
+
 class Login {
     constructor(form, fields) {
         this.form = form;
@@ -25,36 +23,35 @@ class Login {
                 }
             });
             if (error == 0) {
-
-                var username = document.querySelector('#username').value;
-                var password = document.querySelector('#password').value;
-
-
-                // Send a request to check login credentials
-                var xhr = new XMLHttpRequest();
-                xhr.open("POST", "/login");
-                xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-                xhr.onload = function() {
-                    if (xhr.status === 200) {
-                        localStorage.setItem('user', JSON.stringify({
-                            username: username,
-                            password: password
-                        }));
-                        localStorage.setItem("auth", 1);
-                        // Redirect to dashboard or another page
-                        window.location.href = "/res/nuaa/sample.html";
-                    } else {
-                        alert(xhr.responseText);
-                    }
+                var dat = {
+                    username: document.querySelector('#username').value,
+                    password: document.querySelector('#password').value,
                 };
-                xhr.send(JSON.stringify({
-                    username: username,
-                    password: password
-                }));
-            }
-        })
+                console.log(dat);
 
-    };
+                fetch(url)
+                    .then((response) => response.json())
+                    .then((data) => {
+                        if (data.username === dat.username && data.password === dat.password) {
+                            localStorage.setItem('user', JSON.stringify(data));
+                            localStorage.setItem("auth", 1);
+                            this.form.submit();
+                        } else {
+                            this.setStatus(
+                                field,
+                                `${field.previousElementSibling.innerText} incorrect username or password`,
+                                "error"
+                            );
+                            return false;
+                        }
+                    })
+                    .catch((data) => {
+                        console.error('Error:', data.message);
+                    });
+
+            }
+        });
+    }
 
     validateFields(field) {
         if (field.value.trim() === "") {

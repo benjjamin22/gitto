@@ -4,14 +4,10 @@ const rateLimit = require('express-rate-limit')
 require('dotenv').config()
 const errorHandler = require('./middleware/error')
 const path = require('path')
-const bodyParser = require('body-parser')
-const fs = require('fs');
 
 const PORT = process.env.PORT || 5000
 
 const app = express()
-
-app.use(bodyParser.json());
 
 // Rate limiting
 const limiter = rateLimit({
