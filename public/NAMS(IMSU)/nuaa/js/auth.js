@@ -7,7 +7,7 @@ class Auth {
 
     validateAuth(auth) {
         if (auth != 1) {
-            window.location.replace("https://mydatabase.com.ng/NAMS(IMSU)/index.html");
+            window.location.replace("/NAMS(IMSU)/index.html");
         } else {
             document.querySelector("body").style.display = "block";
         }
@@ -16,7 +16,7 @@ class Auth {
     logOut() {
         localStorage.removeItem("auth");
         localStorage.removeItem("user");
-        window.history.pushState("", "", "https://mydatabase.com.ng/NAMS(IMSU)/index.html");
+        window.history.pushState("", "", "/NAMS(IMSU)/index.html");
         window.location.reload();
     }
 }

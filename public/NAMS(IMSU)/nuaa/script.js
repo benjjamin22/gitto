@@ -24,8 +24,8 @@ async function getData() {
         <img src="${user.Picturepath}">
         <div class="movie-info">
       <h3>${user.Name}</h3>
-      <span>${user.Validity}</span>
-        </div></div> </a>
+      <span>${user.validity}</span>
+        </div></div> 
         `
         main.appendChild(div)
 
@@ -62,7 +62,6 @@ function movieselected(id) {
     return false;
 
 }
-
 
 async function getmovie() {
     let movieId = sessionStorage.getItem('movieId');
@@ -118,14 +117,36 @@ async function getmovie() {
                             <div style="flex-direction:column;"class="profile-info"> 
                                 <h1 style="margin-top:-1px;">- ${user.State} -</h1>
                                 <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.LocalGovernment} -</h1>
-                            </div>                                        
-                            <div class="social">
-                            <a href=""><i class="fab fa-facebook "></i></a>
-                            <a href=""><i class="fab fa-instagram "></i></a>
-                            <a href=""><i class="fab fa-tiktok "></i></a>
-                            <a href=""><i class="fab fa-twitter "></i></a>
-                        </div>
-                        </div>
+                            </div> 
+                            
+                            <ul style="margin-bottom:7rem;">
+                                <li>
+                                    <img class="dropDown" src="./facebook.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
+                                    <ul style="width:20rem;background-color: aqua;height: 2rem;justify-content: center; text-align: center;">
+                                        <li style="justify-content: center;width:26.6rem;background-color: rgb(28, 88, 158);margin-left: -5rem;color:white">facebook:${user.localgovt}</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                <img class="dropDown" src="./instagrame.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
+                                    <ul style="width:5rem;background-color: red;height: 2rem;justify-content: center; text-align: center;">
+                                        <li style="justify-content: center;width:27rem;background-color: red;margin-left:-10rem;color:white">instagrame:${user.localgovt}</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                <img class="dropDown" src="./tiktok.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
+                                    <ul style="width:5rem;background-color: orangered;height: 2rem;justify-content: center; text-align: center;">
+                                        <li style="justify-content: center;width:27rem;background-color:#313131;margin-left: -14.8rem;color:white">tiktok:${user.localgovt}</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                <img class="dropDown" src="./twitter.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
+                                    <ul style="width:5rem;background-color: tomato;height: 2rem;justify-content: center; text-align: center;">
+                                        <li style="justify-content: center;width:27rem;background-color: rgb(28, 88, 158);margin-left: -19.7rem;color:white">twitter:${user.localgovt}</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                    </div>
+                       
                     </div>       
                 </div>
             </div>`
@@ -133,36 +154,3 @@ async function getmovie() {
 
     });
 }
-
-
-let opened = null
-const toggleVisibility = e => e.classList.toggle('show')
-
-const handleDropdown = e => {
-
-    const clickedItem = e.parentElement.lastChild.previousSibling
-
-    toggleVisibility(clickedItem)
-
-    if (!opened) {
-        opened = clickedItem
-    } else if (opened == clickedItem) {
-        opened = null
-    } else {
-        toggleVisibility(opened)
-        opened = clickedItem
-    }
-
-}
-
-const handleClick = e => {
-    if (e.target.className.includes('dropDown')) {
-        handleDropdown(e.target)
-    } else if (opened) {
-        toggleVisibility(opened)
-        opened = null
-    }
-
-}
-
-document.addEventListener('click', handleClick)

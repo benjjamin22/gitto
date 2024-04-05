@@ -32,7 +32,7 @@ h6 {
 }
 
 .text-center h3 {
-    background-image: url('https://mydatabase.com.ng/NAMS(IMSU)/rigntrelm1.jpg');
+    background-image: url('/NAMS(IMSU)/rigntrelm1.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 105%;

@@ -59,10 +59,9 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    overflow-y: auto;
     margin: 0;
     padding: 0;
-    height: auto;
+    overflow-y: auto;
     max-height: 45rem;
 }
 
