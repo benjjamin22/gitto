@@ -108,7 +108,7 @@ async function getmovie() {
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">GENDER</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">${user.Sex}</h1>
+                                <h1 style="color:black;padding:0 .8rem;">${user.Phoneno1}</h1>
                                 </div>
                             </div>
                         </div>
