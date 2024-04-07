@@ -24,7 +24,7 @@ async function getData() {
         <img src="${user.Picturepath}">
         <div class="movie-info">
       <h3>${user.Name}</h3>
-      <span>${user.validity}</span>
+      <span>${user.Phoneno1}</span>
         </div></div> 
         `
         main.appendChild(div)
