@@ -11,7 +11,7 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://mydatabase.com.ng/res/</loc>
+        <loc>https://mydatabase.com.ng/res/index.html</loc>
         <priority>0.7</priority>
         <changefreq>weekly</changefreq>
     </url>
