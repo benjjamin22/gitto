@@ -23,7 +23,7 @@ async function getData() {
         <div class="movie">
         <img src="${user.picturepath}">
         <div class="movie-info">
-      <h3>>${user.Aname.Name} ${user.Aname.Mname} ${user.Aname.Surname} </h3>
+      <h3>>${user.Aname.Name}    ${user.Aname.Mname}   ${user.Aname.Surname} </h3>
       <span>${user.Validity}</span>
         </div></div> </a>
         `
