@@ -25,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
 app.use('/api', require('./routes'))
+app.use('/evette', require('./routes/evette'))
 app.use('/nams', require('./routes/nams'))
 app.use('/login', require('./routes/login'))
 app.use('/namslogin', require('./routes/NAMSLOGIN'))
