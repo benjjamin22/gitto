@@ -23,9 +23,9 @@ async function getData() {
         <div class="movie">
         <img src="${user.picturepath}">
         <div class="movie-info">
-      <h3>${user.Name}</h3>
-      <span>${user.validity}</span>
-        </div></div> 
+      <h3>${user.Aname.Name}</h3>
+      <span>${user.Validity}</span>
+        </div></div> </a>
         `
         main.appendChild(div)
 
@@ -78,8 +78,8 @@ async function getmovie() {
                 <div class="profile-top">
                     <img src="${user.picturepath}">
                     <div class="profile-info">
-                        <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${user.Name}</h2>  
-                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${user.reg}
+                        <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${user.Aname.Name}${user.Aname.Mname}${user.Aname.Surname}</h2>  
+                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${user.RegNo}
                         <<<</h1>
                     </div>
                 
@@ -108,7 +108,7 @@ async function getmovie() {
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">GENDER</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">${user.sex}</h1>
+                                <h1 style="color:black;padding:0 .8rem;">${user.Sex}</h1>
                                 </div>
                             </div>
                         </div>
