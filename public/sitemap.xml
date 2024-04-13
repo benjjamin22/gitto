@@ -15,4 +15,9 @@
         <priority>0.7</priority>
         <changefreq>weekly</changefreq>
     </url>
+    <url>
+        <loc>https://mydatabase.com.ng/evetteowerri/index.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
 </urlset>
