@@ -116,7 +116,7 @@ async function getmovie() {
                         <h1 style="font-size:12px;margin-top:-8px;text-align:center;padding:0 0rem;">LGA/STATE OF ORIGIN</h1>
                             <div style="flex-direction:column;"class="profile-info"> 
                                 <h1 style="margin-top:-1px;">- ${user.State} -</h1>
-                                <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.Phoneno1} -</h1>
+                                <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.localgovt} -</h1>
                             </div> 
                             
                             <ul style="margin-bottom:7rem;">
