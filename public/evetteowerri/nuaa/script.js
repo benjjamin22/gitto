@@ -118,30 +118,30 @@ async function getmovie() {
                                 <h1 style="margin-top:-1px;">-  -</h1>
                                 <h1 style="margin:-5px;color:red;font-size:12px;">-  -</h1>
                             </div> 
-                            <div style="display:flex;margin:-9px 0px;;justify-content:center;">
-                            <div>
-                                <h1 style="font-size:12px;margin:0px;text-align:center;">CONTACT:</h1>
-                                <div class="profile-info">
-                                    <a style="text-decoration: none;" href="Tel:${user.inparentno}">
-                                        <div style="margin-left: 0px;"class="p1">
-                                            <p2 style="margin-left: 0px;">-</p2>
-                                        </div>
-                                    </a>                   
+                            <div style="display:flex;margin:-9px 0px;;justify-content:center;margin-top:.3rem;">
+                                <div>
+                                    <h1 style="font-size:12px;margin:0px;text-align:center;">CONTACT:</h1>
+                                    <div class="profile-info">
+                                        <a style="text-decoration: none;" href="Tel:${user.inparentno}">
+                                            <div style="margin-left: 0px;"class="p1">
+                                                <p2 style="margin-left: 0px;">-</p2>
+                                            </div>
+                                        </a>                   
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h1 style="font-size:12px;margin:0px;text-align:center;">EMERGENCY CONTACT:</h1>
-                                <div class="profile-info">
-                                    <a style="text-decoration: none;" href="Tel:${user.inparentno2}">
-                                        <div style="margin-left: 0px;"class="p2">
-                                            <p2 style="margin-left: 0px;">-</p2>
-                                        </div>
-                                    </a>                   
-                                </div>                           
-                            </div>
+                                <div>
+                                    <h1 style="font-size:12px;margin:0px;text-align:center;">EMERGENCY CONTACT:</h1>
+                                    <div class="profile-info">
+                                        <a style="text-decoration: none;" href="Tel:${user.inparentno2}">
+                                            <div style="margin-left: 0px;"class="p2">
+                                                <p2 style="margin-left: 0px;">-</p2>
+                                            </div>
+                                        </a>                   
+                                    </div>                           
+                                </div>
                         </div>
                             
-                            <ul style="margin-bottom:7rem;">
+                            <ul style="margin-bottom:7rem;margin-top:.5rem;">
                                 <li>
                                     <img class="dropDown" src="./facebook.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:20rem;background-color: aqua;height: 2rem;justify-content: center; text-align: center;">
