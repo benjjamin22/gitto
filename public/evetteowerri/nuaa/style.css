@@ -96,14 +96,14 @@ main {
 .movie-info h3 {
     margin-top: 0;
     font-size: 1rem;
-    color: black;
+    color: transparent;
 }
 
 .movie-info span {
     padding: 0.25rem 0.5rem;
     border-radius: 3px;
     font-weight: bold;
-    color: white;
+    color: transparent;
 }
 
 .overview {

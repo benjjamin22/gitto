@@ -86,8 +86,8 @@ async function getmovie() {
                 </div>
                 <div class="profile-bottom">
                     <div style="flex-direction:column;margin:-11px 0px;" class="profile-info"> 
-                        <h1>- EVETTE INSTITUTE OF CATERIN -</h1>
-                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  AND HOTEL MANAGMENT -</h1>
+                        <h1>- EVETTE INSTITUTE OF -</h1>
+                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  CATERING AND HOTEL MANAGMENT -</h1>
                         </div>
                     </div>
                     <div class="profile-bottom">
@@ -115,9 +115,31 @@ async function getmovie() {
                         
                         <h1 style="font-size:12px;margin-top:-8px;text-align:center;padding:0 0rem;">LGA/STATE OF ORIGIN</h1>
                             <div style="flex-direction:column;"class="profile-info"> 
-                                <h1 style="margin-top:-1px;">- ${user.state} -</h1>
-                                <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.id} -</h1>
+                                <h1 style="margin-top:-1px;">-  -</h1>
+                                <h1 style="margin:-5px;color:red;font-size:12px;">-  -</h1>
                             </div> 
+                            <div style="display:flex;margin:-9px 0px;;justify-content:center;">
+                            <div>
+                                <h1 style="font-size:12px;margin:0px;text-align:center;">CONTACT:</h1>
+                                <div class="profile-info">
+                                    <a style="text-decoration: none;" href="Tel:${user.inparentno}">
+                                        <div style="margin-left: 0px;"class="p1">
+                                            <p2 style="margin-left: 0px;">-</p2>
+                                        </div>
+                                    </a>                   
+                                </div>
+                            </div>
+                            <div>
+                                <h1 style="font-size:12px;margin:0px;text-align:center;">EMERGENCY CONTACT:</h1>
+                                <div class="profile-info">
+                                    <a style="text-decoration: none;" href="Tel:${user.inparentno2}">
+                                        <div style="margin-left: 0px;"class="p2">
+                                            <p2 style="margin-left: 0px;">-</p2>
+                                        </div>
+                                    </a>                   
+                                </div>                           
+                            </div>
+                        </div>
                             
                             <ul style="margin-bottom:7rem;">
                                 <li>
