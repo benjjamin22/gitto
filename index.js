@@ -29,6 +29,7 @@ app.use('/evette', require('./routes/evette'))
 app.use('/nams', require('./routes/nams'))
 app.use('/login', require('./routes/login'))
 app.use('/namslogin', require('./routes/NAMSLOGIN'))
+app.use('/loginevette', require('./routes/evettlogin'))
 
 // Error handler middleware
 app.use(errorHandler)
