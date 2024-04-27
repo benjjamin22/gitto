@@ -141,7 +141,7 @@ async function getmovie() {
                                 <li>
                                 <img class="dropDown" src="./twitter.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:5rem;background-color: tomato;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:27rem;background-color: rgb(28, 88, 158);margin-left: -19.7rem;color:white">twitter:${user.localgovt}</li>
+                                        <li style="justify-content: center;width:27rem;background-color: rgb(28, 88, 158);margin-left: -19.7rem;color:white">twitter:</li>
                                     </ul>
                                 </li>
                             </ul>
