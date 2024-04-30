@@ -72,7 +72,7 @@ main {
     position: relative;
     overflow: hidden;
     border-radius: 3px;
-    height: 90px;
+    height: 140px;
     margin: 1px;
 }
 
@@ -82,7 +82,7 @@ main {
 }
 
 .movie-info {
-    margin-top: -50%;
+    margin-top: -.2rem;
     color: #eee;
     display: flex;
     align-items: center;
@@ -95,8 +95,10 @@ main {
 
 .movie-info h3 {
     margin-top: 0;
-    font-size: 1rem;
-    color: transparent;
+    font-size: .7rem;
+    color: white;
+    line-height: 12px;
+    width: 80%;
 }
 
 .movie-info span {
