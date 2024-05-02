@@ -23,8 +23,7 @@ async function getData() {
         <div class="movie">
         <img src="${user.picturepath}">
         <div class="movie-info">
-      <h3>>${user.Name}</h3>
-      <span></span>
+      <h3>${user.Name}</h3>
         </div></div> </a>
         `
         main.appendChild(div)
