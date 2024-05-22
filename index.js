@@ -8,6 +8,7 @@ const path = require('path')
 const PORT = process.env.PORT || 5000
 
 const app = express()
+app.use(express.json())
 
 // Rate limiting
 //const limiter = rateLimit({
@@ -30,6 +31,7 @@ app.use('/nams', require('./routes/nams'))
 app.use('/login', require('./routes/login'))
 app.use('/namslogin', require('./routes/NAMSLOGIN'))
 app.use('/loginevette', require('./routes/evettlogin'))
+app.use('/radical', require('./routes/mydb'))
 
 // Error handler middleware
 app.use(errorHandler)

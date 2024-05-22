@@ -1,0 +1,110 @@
+[{
+        "id": "2",
+        "reg": "13478900951",
+        "inNamer": {
+            "Name": "MICHAEL",
+            "Mname": "GBEMISOLA",
+            "Surname": "SAMUEL"
+        },
+        "inName": "MICHAEL GBEMISOLA SAMUEL",
+        "inSchool": "RIGHTREALM PRIMARY AND SECONDARY",
+        "Status": "PUPIL",
+        "bloodgroup": "O+",
+        "yearofadmin": "JAN.,2023",
+        "sex": "M",
+        "validity": "2023-2029",
+        "localgovt": "IKORODU",
+        "state": "LAGOS",
+        "inparentno": "08037722780",
+        "inparentno2": "08037722780",
+        "picturepath": "https://mydatabase.com.ng/utilitie/nuasa/nuasa/2.jpg"
+    },
+    {
+        "id": "653a1270496c7a2b0eef763f",
+        "reg": "",
+        "inNamer": {
+            "Name": "BENJAMIN",
+            "Mname": "ORITSEJIMI",
+            "Surname": "EDIGBE"
+        },
+        "inName": "BENJAMIN ORITSEJIMI EDIGBE",
+        "inSchool": "MYDATABASE INFO. TECH",
+        "Status": "DEVELOPER",
+        "bloodgroup": "O+",
+        "yearofadmin": "JAN.,2024",
+        "sex": "M",
+        "validity": "2024-2029",
+        "localgovt": "WARRI NORTH",
+        "state": "DELTA",
+        "inparentno": "08037722780",
+        "inparentno2": "08056265148",
+        "picturepath": "https://mydatabase.com.ng/utilitie/nuasa/nuasa/1.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "6594301e038742d0cf51391c"
+        },
+        "Aname": {
+            "Name": "CHIEMENA",
+            "Mname": "MIRIAN",
+            "Surname": "EZEJI"
+        },
+        "School": "IMO STATE UNIVERSITY",
+        "Dept": "MICROBIOLOGY",
+        "LocalGovt": "IKEDURU",
+        "RegNo": "22/1166",
+        "Bloodgroup": "O+",
+        "Sex": "FEMALE",
+        "PhoneNo": "07056907089",
+        "EmergencyNo": "-",
+        "picturepath": "5",
+        "obj": "b99937be-daa1-4d0f-9e67-057eda0a5290",
+        "id": "5",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6594301e038742d0cf51391c"
+        },
+        "Aname": {
+            "Name": "CHIEMENA",
+            "Mname": "MIRIAN",
+            "Surname": "EZEJI"
+        },
+        "School": "IMO STATE UNIVERSITY",
+        "Dept": "MICROBIOLOGY",
+        "LocalGovt": "IKEDURU",
+        "RegNo": "22/1166",
+        "Bloodgroup": "O+",
+        "Sex": "FEMALE",
+        "PhoneNo": "07056907089",
+        "EmergencyNo": "-",
+        "picturepath": "5",
+        "obj": "b99937be-daa1-4d0f-9e67-057eda0a5290",
+        "id": "5",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6594301e038742d0cf51391c"
+        },
+        "Aname": {
+            "Name": "CHIEMENA",
+            "Mname": "MIRIAN",
+            "Surname": "EZEJI"
+        },
+        "School": "IMO STATE UNIVERSITY",
+        "Dept": "MICROBIOLOGY",
+        "LocalGovt": "IKEDURU",
+        "RegNo": "22/1166",
+        "Bloodgroup": "O+",
+        "Sex": "FEMALE",
+        "PhoneNo": "07056907089",
+        "EmergencyNo": "-",
+        "picturepath": "5",
+        "obj": "b99937be-daa1-4d0f-9e67-057eda0a5290",
+        "id": "5",
+        "__v": 0
+    }
+
+]

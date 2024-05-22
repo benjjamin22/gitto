@@ -1,0 +1,41 @@
+[{
+        "_id": "653a123f496c7a2b0eef763d",
+        "Name": "Benjamin",
+        "Mname": "Oritsejimi",
+        "Surname": "Edigbe",
+        "School": "Imo State University",
+        "Dept": "Accountancy",
+        "RegNo": "02/23456",
+        "Status": "Student",
+        "bloodgroup": "O+",
+        "YearofAdmin": "2023",
+        "Sex": "Male",
+        "LocalGovernment": "Ikorodu",
+        "State": "Lagos",
+        "Phoneno1": "+2348037722780",
+        "Phoneno2": "08037722780",
+        "picturepath": "https://mydatabase.com.ng/utilitie/nuasa/nuasa/1.jpg",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "653a1270496c7a2b0eef763f"
+        },
+        "Name": "Leonard",
+        "Mname": "Mcdonal",
+        "Surname": "Decaprio",
+        "School": "Falmouth high school",
+        "Dept": "Ndndnndn",
+        "RegNo": "02/34567",
+        "Status": "Member",
+        "bloodgroup": "O+",
+        "YearofAdmin": "Hdhdh",
+        "Sex": "Female",
+        "LocalGovernment": "Ikorodu",
+        "State": "Lagos",
+        "Phoneno1": "+2348037722780",
+        "Phoneno2": "+2348037722780",
+        "picturepath": "https://mydatabase.com.ng/utilitie/nuasa/nuasa/1.jpg",
+        "__v": 0
+    }
+]
