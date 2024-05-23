@@ -23,12 +23,12 @@ app.use(express.json())
 //}
 
 // Schedule the task to run every 5 minutes
-cron.schedule('*/14 * * * *', () => {
-    console.log('Sending keep-alive request to server...');
-    keepServerAwaike();
-});
+//cron.schedule('*/14 * * * *', () => {
+//  console.log('Sending keep-alive request to server...');
+// keepServerAwaike();
+//});
 
-console.log('Keep-alive script started.');
+//console.log('Keep-alive script started.');
 
 // Rate limiting
 //const limiter = rateLimit({
