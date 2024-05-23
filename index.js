@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
-const http = require('http')
-const cron = require('node-cron');
+    //const http = require('http')
+    //const cron = require('node-cron');
 
 //const rateLimit = require('express-rate-limit')
 require('dotenv').config()
@@ -14,13 +14,13 @@ const app = express()
 app.use(express.json())
 
 
-function keepServerAwaike() {
-    http.get('https://mymongoose.onrender.com', (res) => {
-        console.log(`Status Code: ${res.statusCode}`);
-    }).on('error', (e) => {
-        console.error(`Error: ${e.message}`);
-    });
-}
+//function keepServerAwaike() {
+//http.get('https://mymongoose.onrender.com', (res) => {
+// console.log(`Status Code: ${res.statusCode}`);
+//}).on('error', (e) => {
+//console.error(`Error: ${e.message}`);
+//});
+//}
 
 // Schedule the task to run every 5 minutes
 cron.schedule('*/14 * * * *', () => {
