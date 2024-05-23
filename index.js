@@ -1,6 +1,9 @@
 const express = require('express')
 const cors = require('cors')
-    //const rateLimit = require('express-rate-limit')
+const http = require('http')
+const cron = require('node-cron');
+
+//const rateLimit = require('express-rate-limit')
 require('dotenv').config()
 const errorHandler = require('./middleware/error')
 const path = require('path')
@@ -9,6 +12,23 @@ const PORT = process.env.PORT || 5000
 
 const app = express()
 app.use(express.json())
+
+
+function keepServerAwaike() {
+    http.get('https://mymongoose.onrender.com', (res) => {
+        console.log(`Status Code: ${res.statusCode}`);
+    }).on('error', (e) => {
+        console.error(`Error: ${e.message}`);
+    });
+}
+
+// Schedule the task to run every 5 minutes
+cron.schedule('*/14 * * * *', () => {
+    console.log('Sending keep-alive request to server...');
+    keepServerAwaike();
+});
+
+console.log('Keep-alive script started.');
 
 // Rate limiting
 //const limiter = rateLimit({
