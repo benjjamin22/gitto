@@ -1,0 +1,264 @@
+[{
+  "_id": {
+    "$oid": "65942eaa038742d0cf513914"
+  },
+  "Aname": {
+    "Name": "PASCHAL",
+    "Mname": "CHIKAMSO",
+    "Surname": "OGBONNA"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "ISU",
+  "RegNo": "22/1226",
+  "Bloodgroup": "A",
+  "Sex": "MALE",
+  "PhoneNo": "09073951438",
+  "EmergencyNo": "-",
+  "picturepath": "1",
+  "obj": "be10da74-1f62-4451-ab18-b9e9492e9ec3",
+  "id": "1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65942eff0781572411661022"
+  },
+  "Aname": {
+    "Name": "IFENYIWA",
+    "Mname": "ANITA",
+    "Surname": "ONUOHA"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "OHAJI EGBEMA",
+  "RegNo": "21/0789",
+  "Bloodgroup": "O+",
+  "Sex": "FEMALE",
+  "PhoneNo": "-",
+  "EmergencyNo": "-",
+  "picturepath": "2",
+  "obj": "8e0b0397-f666-4084-a2e1-14f5c19931cb",
+  "id": "2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65942f57038742d0cf513918"
+  },
+  "Aname": {
+    "Name": "IZUCHUKWU",
+    "Mname": "DAVID",
+    "Surname": "OSUNGWU"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "OKIGWE",
+  "RegNo": "-",
+  "Bloodgroup": "O+",
+  "Sex": "MALE",
+  "PhoneNo": "07040419328",
+  "EmergencyNo": "-",
+  "picturepath": "3",
+  "obj": "f4053aee-62ea-44be-b70d-ba6333f82128",
+  "id": "3",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65942fb60781572411661026"
+  },
+  "Aname": {
+    "Name": "JESSICA",
+    "Mname": "EZICHIMDU",
+    "Surname": "AZOTANA"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "IKEDURU",
+  "RegNo": "22/1125",
+  "Bloodgroup": "O+",
+  "Sex": "FEMALE",
+  "PhoneNo": "09063157508",
+  "EmergencyNo": "-",
+  "picturepath": "4",
+  "obj": "a38a0051-43a1-4185-91be-61369fdc2e8c",
+  "id": "4",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6594301e038742d0cf51391c"
+  },
+  "Aname": {
+    "Name": "CHIEMENA",
+    "Mname": "MIRIAN",
+    "Surname": "EZEJI"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "IKEDURU",
+  "RegNo": "22/1166",
+  "Bloodgroup": "O+",
+  "Sex": "FEMALE",
+  "PhoneNo": "07056907089",
+  "EmergencyNo": "-",
+  "picturepath": "5",
+  "obj": "b99937be-daa1-4d0f-9e67-057eda0a5290",
+  "id": "5",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6594309a078157241166102a"
+  },
+  "Aname": {
+    "Name": "PRECIOUS",
+    "Mname": "OGECHUKWU",
+    "Surname": "ODOEMENAH"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "ISIALA MBANO",
+  "RegNo": "23/1223",
+  "Bloodgroup": "O+",
+  "Sex": "FEMALE",
+  "PhoneNo": "09090842090",
+  "EmergencyNo": "-",
+  "picturepath": "6",
+  "obj": "264d1ef0-e6c3-4a70-8499-cfc5c5328a69",
+  "id": "6",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659431078e1bce41d44e415c"
+  },
+  "Aname": {
+    "Name": " MARYCYNTHIA",
+    "Mname": "CHINEMEREM",
+    "Surname": "AGBA"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "IDEATE NORTH",
+  "RegNo": "21/061/",
+  "Bloodgroup": "O+",
+  "Sex": "FEMALE",
+  "PhoneNo": "-7",
+  "EmergencyNo": "-",
+  "picturepath": "7",
+  "obj": "588abddf-729a-4008-90b2-99b6c5e21e86",
+  "id": "7",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6594317f038742d0cf513920"
+  },
+  "Aname": {
+    "Name": "IFUNANYACHUKWU",
+    "Mname": "ANGU",
+    "Surname": "EKEH"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "MBAITOLI",
+  "RegNo": "22/1156",
+  "Bloodgroup": "A+",
+  "Sex": "FEMALE",
+  "PhoneNo": "09130835441",
+  "EmergencyNo": "-",
+  "picturepath": "8",
+  "obj": "8da52d2b-b803-4704-8e76-5a65500e9037",
+  "id": "8",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659431ff8e1bce41d44e4161"
+  },
+  "Aname": {
+    "Name": "CHRISOGONUS",
+    "Mname": "UCHECHUKWU",
+    "Surname": "OKWARA"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "IDEATE SOUTH",
+  "RegNo": "22/1239",
+  "Bloodgroup": "A+",
+  "Sex": "MALE",
+  "PhoneNo": "08145584863",
+  "EmergencyNo": "-",
+  "picturepath": "9",
+  "obj": "ec31a724-3c21-471a-bcf9-79e392b8efef",
+  "id": "9",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65943268038742d0cf513924"
+  },
+  "Aname": {
+    "Name": "ANASTECIA",
+    "Mname": "CHIOMA",
+    "Surname": "OSUJI"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "NGOR OKPALA",
+  "RegNo": "22/1257",
+  "Bloodgroup": "O+",
+  "Sex": "FEMALE",
+  "PhoneNo": "08146233430",
+  "EmergencyNo": "-",
+  "picturepath": "10",
+  "obj": "5fde2f6d-971b-4570-b72e-c6101f6b7886",
+  "id": "10",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659433138e1bce41d44e4165"
+  },
+  "Aname": {
+    "Name": "PRINCESS",
+    "Mname": "OMAZURU",
+    "Surname": "NWOKE"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "OBOWO",
+  "RegNo": "22/1217",
+  "Bloodgroup": "O+",
+  "Sex": "FEMALE",
+  "PhoneNo": "09012776030",
+  "EmergencyNo": "-",
+  "picturepath": "11",
+  "obj": "c241497f-db76-4535-bd8b-2f9a5a8ded6c",
+  "id": "11",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65943375038742d0cf513928"
+  },
+  "Aname": {
+    "Name": "EMMANUEL",
+    "Mname": "EKENEDIRICHUKWU",
+    "Surname": "IHEBEREME"
+  },
+  "School": "IMO STATE UNIVERSITY",
+  "Dept": "MICROBIOLOGY",
+  "LocalGovt": "AHIAZU MBAISE",
+  "RegNo": "22/1179",
+  "Bloodgroup": "O+",
+  "Sex": "MALE",
+  "PhoneNo": "-'",
+  "EmergencyNo": "-",
+  "picturepath": "12",
+  "obj": "cdb77b6e-25ae-441d-9a71-682091faca55",
+  "id": "12",
+  "__v": 0
+}]
