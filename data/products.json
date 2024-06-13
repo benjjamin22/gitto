@@ -41,6 +41,27 @@
         "picturepath": "https://mydatabase.com.ng/utilitie/nuasa/nuasa/1.jpg"
     },
     {
+        "id": "7b56f40f-a978-4a2c-9dc9-48eb0d1dc949",
+        "reg": "",
+        "inNamer": {
+            "Name": "VICTOR",
+            "Mname": "ONYEKACHI",
+            "Surname": "ODO"
+        },
+        "inName": "BENJAMIN ORITSEJIMI EDIGBE",
+        "inSchool": "FUTO STUDENT UNION GOVT",
+        "Status": "MEMBER",
+        "bloodgroup": "O+",
+        "yearofadmin": "JAN.,2022",
+        "sex": "M",
+        "validity": "2022-2028",
+        "localgovt": "-",
+        "state": "-",
+        "inparentno": "09021720996",
+        "inparentno2": "-",
+        "picturepath": "https://mydatabase.com.ng/utilitie/nuasa/nuasa/0900.jpg"
+    },
+    {
         "_id": {
             "$oid": "6594301e038742d0cf51391c"
         },
