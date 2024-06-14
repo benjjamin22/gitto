@@ -34,7 +34,7 @@
         "yearofadmin": "JAN.,2024",
         "sex": "M",
         "validity": "2024-2029",
-        "localgovt": "WARRI NORTH",
+        "localgovt": "WARRInORTH",
         "state": "DELTA",
         "inparentno": "08037722780",
         "inparentno2": "08056265148",
@@ -62,7 +62,7 @@
         "picturepath": "https://mydatabase.com.ng/utilitie/nuasa/nuasa/90.jpg"
     }, {
         "Timestamp": "2024/05/29 3:35:27 PM GMT+1",
-        "Full name ": "Ogbonna Chiemerie Excel ",
+        "Fullname ": "Ogbonna Chiemerie Excel ",
         "reg": "20221309895",
         "inparentno": "09049624576",
         "Department ": "Computer science ",
@@ -72,7 +72,7 @@
     },
     {
         "Timestamp": "2024/05/29 3:40:49 PM GMT+1",
-        "Full name ": "Awoke princewill ogbonnaya ",
+        "Fullname ": "Awoke princewill ogbonnaya ",
         "reg": "20221309745",
         "inparentno": "08086250294 ",
         "Department ": "Computer science ",
@@ -82,7 +82,7 @@
     },
     {
         "Timestamp": "2024/05/29 3:44:27 PM GMT+1",
-        "Full name ": "Ukwueze Valentine Tochukwu ",
+        "Fullname ": "Ukwueze Valentine Tochukwu ",
         "reg": "20221304955",
         "inparentno": "08061918176",
         "Department ": "Computer science ",
@@ -92,7 +92,7 @@
     },
     {
         "Timestamp": "2024/05/29 3:49:23 PM GMT+1",
-        "Full name ": "OKEKA BETHEL CHUKWURAH",
+        "Fullname ": "OKEKA BETHEL CHUKWURAH",
         "reg": "20221348685",
         "inparentno": "09161490758",
         "Department ": "COMPUTER SCIENCE",
@@ -102,7 +102,7 @@
     },
     {
         "Timestamp": "2024/05/29 4:08:07 PM GMT+1",
-        "Full name ": "Obiajunwa Kamsiyochukwu Samuel ",
+        "Fullname ": "Obiajunwa Kamsiyochukwu Samuel ",
         "reg": "20221337375",
         "inparentno": "08145554077",
         "Department ": "COMPUTER SCIENCE ",
@@ -112,7 +112,7 @@
     },
     {
         "Timestamp": "2024/05/29 4:14:22 PM GMT+1",
-        "Full name ": "Chukwukere Ogochukwu paul",
+        "Fullname ": "Chukwukere Ogochukwu paul",
         "reg": "20221336765",
         "inparentno": "08124736217",
         "Department ": "Computer Science ",
@@ -122,7 +122,7 @@
     },
     {
         "Timestamp": "2024/05/29 4:17:08 PM GMT+1",
-        "Full name ": "Ihediuche Chidiebere Genevieve ",
+        "Fullname ": "Ihediuche Chidiebere Genevieve ",
         "reg": "20221329085",
         "inparentno": "09042583962",
         "Department ": "Computer Science ",
@@ -132,7 +132,7 @@
     },
     {
         "Timestamp": "2024/05/29 4:41:02 PM GMT+1",
-        "Full name ": "Ndukwu David Amarachi",
+        "Fullname ": "Ndukwu David Amarachi",
         "reg": "20221330855",
         "inparentno": "09065799536",
         "Department ": "Computer Science ",
@@ -142,7 +142,7 @@
     },
     {
         "Timestamp": "2024/05/29 4:52:24 PM GMT+1",
-        "Full name ": "Okuma Chukwuebuka Daniel ",
+        "Fullname ": "Okuma Chukwuebuka Daniel ",
         "reg": "20221326025",
         "inparentno": "09039300429",
         "Department ": "CSC ",
@@ -152,7 +152,7 @@
     },
     {
         "Timestamp": "2024/05/29 5:57:40 PM GMT+1",
-        "Full name ": "Ohagorom Chiemena Roseline ",
+        "Fullname ": "Ohagorom Chiemena Roseline ",
         "reg": "20221315395",
         "inparentno": "08126633901",
         "Department ": "Computer Science ",
@@ -162,7 +162,7 @@
     },
     {
         "Timestamp": "2024/05/29 7:07:41 PM GMT+1",
-        "Full name ": "Okereke Faith Nneoma ",
+        "Fullname ": "Okereke Faithnneoma ",
         "reg": "20221317355",
         "inparentno": "08136896184",
         "Department ": "Computer Science ",
@@ -172,7 +172,7 @@
     },
     {
         "Timestamp": "2024/05/29 9:44:34 PM GMT+1",
-        "Full name ": "Golden chukwuka obi-osborn ",
+        "Fullname ": "Golden chukwuka obi-osborn ",
         "reg": "20221342035",
         "inparentno": "08109518220",
         "Department ": "Computer science ",
@@ -182,7 +182,7 @@
     },
     {
         "Timestamp": "2024/05/30 7:23:24 AM GMT+1",
-        "Full name ": "Uchenna Uchechukwu Franklyn ",
+        "Fullname ": "Uchenna Uchechukwu Franklyn ",
         "reg": "20221323825",
         "inparentno": "09132513875",
         "Department ": "Computer Science ",
@@ -192,7 +192,7 @@
     },
     {
         "Timestamp": "2024/05/30 7:32:31 AM GMT+1",
-        "Full name ": "Ukonu Wisdom Oluebubechukwu ",
+        "Fullname ": "Ukonu Wisdom Oluebubechukwu ",
         "reg": "20221338205",
         "inparentno": "08133191158",
         "Department ": "Computer science ",
@@ -202,7 +202,7 @@
     },
     {
         "Timestamp": "2024/05/30 7:51:58 AM GMT+1",
-        "Full name ": "Anakor Chizitere Henry ",
+        "Fullname ": "Anakor Chizitere Henry ",
         "reg": "20221335055",
         "inparentno": "08130434555",
         "Department ": "Computer Science ",
@@ -212,7 +212,7 @@
     },
     {
         "Timestamp": "2024/05/30 8:13:52 AM GMT+1",
-        "Full name ": "ORIUWA CLEMENT CHINWEOTITO",
+        "Fullname ": "ORIUWA CLEMENT CHINWEOTITO",
         "reg": "20221321825",
         "inparentno": "09124490180",
         "Department ": "COMPUTER SCIENCE ",
@@ -222,7 +222,7 @@
     },
     {
         "Timestamp": "2024/05/30 8:20:53 AM GMT+1",
-        "Full name ": "Oliver Ugochukwu David ",
+        "Fullname ": "Oliver Ugochukwu David ",
         "reg": "20221309795",
         "inparentno": "09118966714",
         "Department ": "Computer Science ",
@@ -232,7 +232,7 @@
     },
     {
         "Timestamp": "2024/05/30 8:25:40 AM GMT+1",
-        "Full name ": "Uzoh chidera David ",
+        "Fullname ": "Uzoh chidera David ",
         "reg": "20221324995",
         "inparentno": "09127431792",
         "Department ": "Computer Science ",
@@ -242,7 +242,7 @@
     },
     {
         "Timestamp": "2024/05/30 9:36:49 AM GMT+1",
-        "Full name ": "Joseph Conscience Miracle ",
+        "Fullname ": "Joseph Conscience Miracle ",
         "reg": "20221307075",
         "inparentno": "0913 568 0679",
         "Department ": "Computer Science ",
@@ -252,7 +252,7 @@
     },
     {
         "Timestamp": "2024/05/30 9:59:55 AM GMT+1",
-        "Full name ": "Eze Bonaventure chidera ",
+        "Fullname ": "Eze Bonaventure chidera ",
         "reg": "20221323085",
         "inparentno": "07041581277",
         "Department ": "Computer science ",
@@ -262,7 +262,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:09:01 AM GMT+1",
-        "Full name ": "Oparah Chidiebere Daniel ",
+        "Fullname ": "Oparah Chidiebere Daniel ",
         "reg": "20221316515",
         "inparentno": "07017197843",
         "Department ": "Computer science ",
@@ -272,7 +272,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:09:55 AM GMT+1",
-        "Full name ": "Ayaka Chukwuebuka Stephen",
+        "Fullname ": "Ayaka Chukwuebuka Stephen",
         "reg": "20221342265",
         "inparentno": "09049453830",
         "Department ": "Computer Science",
@@ -282,7 +282,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:11:06 AM GMT+1",
-        "Full name ": "Obodozie Favour Chioma",
+        "Fullname ": "Obodozie Favour Chioma",
         "reg": "20221309375",
         "inparentno": "08039816391",
         "Department ": "Computer Science",
@@ -292,7 +292,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:11:50 AM GMT+1",
-        "Full name ": "IRECHUKWU EMMANUEL SOMTOCHUKWU",
+        "Fullname ": "IRECHUKWU EMMANUEL SOMTOCHUKWU",
         "reg": "20221329055",
         "inparentno": "09027950148",
         "Department ": "COMPUTER SCIENCE",
@@ -302,7 +302,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:12:28 AM GMT+1",
-        "Full name ": "Opara Tochukwu Christian Diepreye ",
+        "Fullname ": "Opara Tochukwu Christian Diepreye ",
         "reg": "20221329445",
         "inparentno": "08161419069",
         "Department ": "Computer science ",
@@ -312,7 +312,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:13:24 AM GMT+1",
-        "Full name ": "Chikwe Charles Nnaemeka ",
+        "Fullname ": "Chikwe Charlesnnaemeka ",
         "reg": "20221328695",
         "inparentno": "08153092969",
         "Department ": "Computer Science ",
@@ -322,7 +322,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:16:15 AM GMT+1",
-        "Full name ": "Nnadi Victor Chidiebere",
+        "Fullname ": "Nnadi Victor Chidiebere",
         "reg": "20221339085",
         "inparentno": "08135968655",
         "Department ": "Computer science",
@@ -332,7 +332,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:16:24 AM GMT+1",
-        "Full name ": "Chimeziri Freedom Chinedu ",
+        "Fullname ": "Chimeziri Freedom Chinedu ",
         "reg": "20221326475",
         "inparentno": "08160108204",
         "Department ": "Computer science ",
@@ -342,7 +342,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:19:58 AM GMT+1",
-        "Full name ": "Mbamara Blessing Chidiamara ",
+        "Fullname ": "Mbamara Blessing Chidiamara ",
         "reg": "20233389862",
         "inparentno": "08025556944",
         "Department ": "Computer science ",
@@ -352,7 +352,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:20:33 AM GMT+1",
-        "Full name ": "Elechi Emmanuel-Mary Thomas ",
+        "Fullname ": "Elechi Emmanuel-Mary Thomas ",
         "reg": "20221316085",
         "inparentno": "08160177930",
         "Department ": "Computer science ",
@@ -362,7 +362,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:25:17 AM GMT+1",
-        "Full name ": "Osuji Wisdom Stephen",
+        "Fullname ": "Osuji Wisdom Stephen",
         "reg": "20221306515",
         "inparentno": "07035376052",
         "Department ": "Computer Science ",
@@ -372,7 +372,7 @@
     },
     {
         "Timestamp": "2024/05/30 10:31:58 AM GMT+1",
-        "Full name ": "Ibekwe Avi Ifeanyi ",
+        "Fullname ": "Ibekwe Avi Ifeanyi ",
         "reg": "20221340545",
         "inparentno": "08139418725",
         "Department ": "Computer science ",
@@ -382,7 +382,7 @@
     },
     {
         "Timestamp": "2024/05/30 11:10:56 AM GMT+1",
-        "Full name ": "OPARA SAMUEL NKEMAKOLAM ",
+        "Fullname ": "OPARA SAMUELnKEMAKOLAM ",
         "reg": "20221313125",
         "inparentno": "08130477310",
         "Department ": "COMPUTER SCIENCE ",
@@ -392,7 +392,7 @@
     },
     {
         "Timestamp": "2024/05/30 11:20:54 AM GMT+1",
-        "Full name ": "Ndukwe Testimony Amarachi",
+        "Fullname ": "Ndukwe Testimony Amarachi",
         "reg": "20221317475",
         "inparentno": "08089655247",
         "Department ": "Computer Science",
@@ -402,7 +402,7 @@
     },
     {
         "Timestamp": "2024/05/30 11:39:27 AM GMT+1",
-        "Full name ": "ONYELEKEREM WISDOM CHINAZA ",
+        "Fullname ": "ONYELEKEREM WISDOM CHINAZA ",
         "reg": "20221326585",
         "inparentno": "09067551586",
         "Department ": "Computer science ",
@@ -412,7 +412,7 @@
     },
     {
         "Timestamp": "2024/05/30 11:51:39 AM GMT+1",
-        "Full name ": "ABIAKAM CHUKWUEBUKA FRANCIS ",
+        "Fullname ": "ABIAKAM CHUKWUEBUKA FRANCIS ",
         "reg": "20221308535",
         "inparentno": "09136941262",
         "Department ": "COMPUTER SCIENCE ",
@@ -422,7 +422,7 @@
     },
     {
         "Timestamp": "2024/05/30 11:58:45 AM GMT+1",
-        "Full name ": "Oguji Success Chinonso ",
+        "Fullname ": "Oguji Success Chinonso ",
         "reg": "20221311765",
         "inparentno": "07025279847",
         "Department ": "Computer Science ",
@@ -432,7 +432,7 @@
     },
     {
         "Timestamp": "2024/05/30 12:05:14 PM GMT+1",
-        "Full name ": "Kemakolam David Nnaemeka ",
+        "Fullname ": "Kemakolam Davidnnaemeka ",
         "reg": "20221325015",
         "inparentno": "08025763686, 07049307536",
         "Department ": "Computer Science",
@@ -442,7 +442,7 @@
     },
     {
         "Timestamp": "2024/05/30 12:18:09 PM GMT+1",
-        "Full name ": "Nlewedim chinonso Emmanuel ",
+        "Fullname ": "Nlewedim chinonso Emmanuel ",
         "reg": "20221337005",
         "inparentno": "07068595756",
         "Department ": "Computer science ",
@@ -452,7 +452,7 @@
     },
     {
         "Timestamp": "2024/05/30 12:19:04 PM GMT+1",
-        "Full name ": "John Kelechukwu Favour ",
+        "Fullname ": "John Kelechukwu Favour ",
         "reg": "20221309545",
         "inparentno": "07019760325",
         "Department ": "Computer science ",
@@ -462,7 +462,7 @@
     },
     {
         "Timestamp": "2024/05/30 12:25:52 PM GMT+1",
-        "Full name ": "Ukwuani Fidelis Ndubuisi ",
+        "Fullname ": "Ukwuani Fidelisndubuisi ",
         "reg": "20221317695",
         "inparentno": "08028514704",
         "Department ": "Computer Science ",
@@ -472,7 +472,7 @@
     },
     {
         "Timestamp": "2024/05/30 12:54:08 PM GMT+1",
-        "Full name ": "Ogbonna Ebubechukwu Triumph",
+        "Fullname ": "Ogbonna Ebubechukwu Triumph",
         "reg": "20221309825",
         "inparentno": "07089093249",
         "Department ": "Computer Science (CSC)",
@@ -482,7 +482,7 @@
     },
     {
         "Timestamp": "2024/05/30 12:54:36 PM GMT+1",
-        "Full name ": "Lazarus Melchizedek ",
+        "Fullname ": "Lazarus Melchizedek ",
         "reg": "20221322255",
         "inparentno": "09161154894",
         "Department ": "Computer science ",
@@ -492,7 +492,7 @@
     },
     {
         "Timestamp": "2024/05/30 12:54:39 PM GMT+1",
-        "Full name ": "Ogbonna Favour Amarachi ",
+        "Fullname ": "Ogbonna Favour Amarachi ",
         "reg": "20221311365",
         "inparentno": "09163490639",
         "Department ": "Computer Science",
@@ -502,7 +502,7 @@
     },
     {
         "Timestamp": "2024/05/30 12:57:58 PM GMT+1",
-        "Full name ": "Timothy Samuel Ikechukwu ",
+        "Fullname ": "Timothy Samuel Ikechukwu ",
         "reg": "20221319735",
         "inparentno": "07083574058",
         "Department ": "Computer Science (CSC)",
@@ -512,7 +512,7 @@
     },
     {
         "Timestamp": "2024/05/30 12:59:40 PM GMT+1",
-        "Full name ": "ELEAZAR EBUBE ISRAEL",
+        "Fullname ": "ELEAZAR EBUBE ISRAEL",
         "reg": "20221339495",
         "inparentno": "09038909464",
         "Department ": "Computer science",
@@ -522,7 +522,7 @@
     },
     {
         "Timestamp": "2024/05/30 1:02:57 PM GMT+1",
-        "Full name ": "Ibe Godspower nmesoma ",
+        "Fullname ": "Ibe Godspowernmesoma ",
         "reg": "20233361325",
         "inparentno": "08100578863",
         "Department ": "Computer science ",
@@ -532,7 +532,7 @@
     },
     {
         "Timestamp": "2024/05/30 1:04:23 PM GMT+1",
-        "Full name ": "Mgbeahuru Valentine Chukwuemeka ",
+        "Fullname ": "Mgbeahuru Valentine Chukwuemeka ",
         "reg": "20221325185",
         "inparentno": "07069981727",
         "Department ": "Computer science ",
@@ -542,7 +542,7 @@
     },
     {
         "Timestamp": "2024/05/30 1:07:17 PM GMT+1",
-        "Full name ": "Iwuchukwu Chikezie Bruno",
+        "Fullname ": "Iwuchukwu Chikezie Bruno",
         "reg": "20221316135",
         "inparentno": "09039145076",
         "Department ": "Computer science ",
@@ -552,7 +552,7 @@
     },
     {
         "Timestamp": "2024/05/30 1:12:17 PM GMT+1",
-        "Full name ": "ALOZIE THANKGOD CHINAEMELUM ",
+        "Fullname ": "ALOZIE THANKGOD CHINAEMELUM ",
         "reg": "20221323575",
         "inparentno": "09123065291",
         "Department ": "COMPUTER SCIENCE ",
@@ -562,7 +562,7 @@
     },
     {
         "Timestamp": "2024/05/30 1:14:47 PM GMT+1",
-        "Full name ": "Reward Onyeka Nkemjika ",
+        "Fullname ": "Reward Onyekankemjika ",
         "reg": "20221324625",
         "inparentno": "+2348162928125",
         "Department ": "Computer Science ",
@@ -572,7 +572,7 @@
     },
     {
         "Timestamp": "2024/05/30 4:02:20 PM GMT+1",
-        "Full name ": "Onyibe Emmanuel Udochukwu ",
+        "Fullname ": "Onyibe Emmanuel Udochukwu ",
         "reg": "20221351185",
         "inparentno": "070 8867 7699 ",
         "Department ": "Computer Science ",
@@ -582,7 +582,7 @@
     },
     {
         "Timestamp": "2024/05/30 4:53:06 PM GMT+1",
-        "Full name ": "Echetama Ikechukwu Gerald",
+        "Fullname ": "Echetama Ikechukwu Gerald",
         "reg": "20221318895",
         "inparentno": "08101891184",
         "Department ": "Computer Science",
@@ -592,7 +592,7 @@
     },
     {
         "Timestamp": "2024/05/30 4:56:18 PM GMT+1",
-        "Full name ": "NGWU MICHAEL ADIMORA ",
+        "Fullname ": "NGWU MICHAEL ADIMORA ",
         "reg": "20211307995",
         "inparentno": "07063614047",
         "Department ": "Computer Science ",
@@ -602,7 +602,7 @@
     },
     {
         "Timestamp": "2024/05/30 6:48:47 PM GMT+1",
-        "Full name ": "Ogualiri Doris Nkeiru ",
+        "Fullname ": "Ogualiri Dorisnkeiru ",
         "reg": "20221306445",
         "inparentno": "08104855246",
         "Department ": "Computer science ",
@@ -612,7 +612,7 @@
     },
     {
         "Timestamp": "2024/05/31 9:39:43 AM GMT+1",
-        "Full name ": "Chukwuemeka Onyinyechi Mercy ",
+        "Fullname ": "Chukwuemeka Onyinyechi Mercy ",
         "reg": "20221319305",
         "inparentno": "08148521005",
         "Department ": "Computer science ",
@@ -622,7 +622,7 @@
     },
     {
         "Timestamp": "2024/06/05 5:22:17 PM GMT+1",
-        "Full name ": "Emecheta Emmanuel chigaemezu ",
+        "Fullname ": "Emecheta Emmanuel chigaemezu ",
         "reg": "20221325095",
         "inparentno": "08137949901",
         "Department ": "Computer science ",
@@ -632,7 +632,7 @@
     },
     {
         "Timestamp": "2024/06/05 7:41:34 PM GMT+1",
-        "Full name ": "Mbamara Joshua Elochukwu ",
+        "Fullname ": "Mbamara Joshua Elochukwu ",
         "reg": "20221310785",
         "inparentno": "09131428164",
         "Department ": "Computer Science ",
@@ -642,7 +642,7 @@
     },
     {
         "Timestamp": "2024/06/05 9:30:00 PM GMT+1",
-        "Full name ": "Akalazu Emmanuel CHINEMEREM ",
+        "Fullname ": "Akalazu Emmanuel CHINEMEREM ",
         "reg": "20221342365",
         "inparentno": "07025821335",
         "Department ": "Computer science ",
@@ -652,7 +652,7 @@
     },
     {
         "Timestamp": "2024/06/05 10:05:07 PM GMT+1",
-        "Full name ": "Emezi kelechi Anthony ",
+        "Fullname ": "Emezi kelechi Anthony ",
         "reg": "20221338295",
         "inparentno": "09157475255",
         "Department ": "Computer science ",
@@ -662,7 +662,7 @@
     },
     {
         "Timestamp": "2024/06/05 11:53:26 PM GMT+1",
-        "Full name ": "Odo Onyekachi Victor ",
+        "Fullname ": "Odo Onyekachi Victor ",
         "reg": "20221322785",
         "inparentno": "09021720996",
         "Department ": "Computer Science ",
@@ -672,7 +672,7 @@
     },
     {
         "Timestamp": "2024/06/06 9:35:24 AM GMT+1",
-        "Full name ": "Odom Success Ikedichim ",
+        "Fullname ": "Odom Success Ikedichim ",
         "reg": "20221305315",
         "inparentno": "09050038159",
         "Department ": "Computer science ",
@@ -682,7 +682,7 @@
     },
     {
         "Timestamp": "2024/06/06 2:23:45 PM GMT+1",
-        "Full name ": "OFOKANSI CHIDIEBELE JOSHUA ",
+        "Fullname ": "OFOKANSI CHIDIEBELE JOSHUA ",
         "reg": "20221305925",
         "inparentno": "08069971739",
         "Department ": "Computer science (CSC)",
@@ -692,7 +692,7 @@
     },
     {
         "Timestamp": "2024/06/06 2:47:19 PM GMT+1",
-        "Full name ": "Egwuonwu Makuochukwu Vitalis ",
+        "Fullname ": "Egwuonwu Makuochukwu Vitalis ",
         "reg": "20221325885",
         "inparentno": "07026139914",
         "Department ": "Computer science ",
@@ -702,7 +702,7 @@
     },
     {
         "Timestamp": "2024/06/06 4:21:58 PM GMT+1",
-        "Full name ": "Uzoahia Mitchel Kelechi",
+        "Fullname ": "Uzoahia Mitchel Kelechi",
         "reg": "20221357872",
         "inparentno": "08127110407",
         "Department ": "Computer Science ",
@@ -712,7 +712,7 @@
     },
     {
         "Timestamp": "2024/06/06 7:21:51 PM GMT+1",
-        "Full name ": "Agbi Victor Nnanna",
+        "Fullname ": "Agbi Victornnanna",
         "reg": "20221338605",
         "inparentno": "09078823019",
         "Department ": "Computer Science",
@@ -722,7 +722,7 @@
     },
     {
         "Timestamp": "2024/06/06 7:52:05 PM GMT+1",
-        "Full name ": "Uchegbu Tochukwu Francis ",
+        "Fullname ": "Uchegbu Tochukwu Francis ",
         "reg": "20221353285",
         "inparentno": "08080577722",
         "Department ": "Computer Science ",
@@ -732,7 +732,7 @@
     },
     {
         "Timestamp": "2024/06/06 11:03:00 PM GMT+1",
-        "Full name ": "AYABOTU PEREKE-EBI THOMPSON",
+        "Fullname ": "AYABOTU PEREKE-EBI THOMPSON",
         "reg": "20221354305",
         "inparentno": "07043962791",
         "Department ": "Computer science ",
@@ -742,7 +742,7 @@
     },
     {
         "Timestamp": "2024/06/07 6:23:12 AM GMT+1",
-        "Full name ": "Onuegbu Nelson Uchechukwu",
+        "Fullname ": "Onuegbunelson Uchechukwu",
         "reg": "20221315555",
         "inparentno": "08096781730",
         "Department ": "Computer Science",
@@ -752,7 +752,7 @@
     },
     {
         "Timestamp": "2024/06/07 8:53:37 AM GMT+1",
-        "Full name ": "Akaliro Esther Ogochukwu ",
+        "Fullname ": "Akaliro Esther Ogochukwu ",
         "reg": "20221313385",
         "inparentno": "08132420471",
         "Department ": "Computer Science ",
@@ -762,7 +762,7 @@
     },
     {
         "Timestamp": "2024/06/07 9:13:26 AM GMT+1",
-        "Full name ": "Ikechi Emmanuel Chiemela",
+        "Fullname ": "Ikechi Emmanuel Chiemela",
         "reg": "20221319145",
         "inparentno": "09030436679",
         "Department ": "Computer Science",
@@ -772,7 +772,7 @@
     },
     {
         "Timestamp": "2024/06/07 9:51:38 AM GMT+1",
-        "Full name ": "Chiwueze Macvictor Chukwuebuka ",
+        "Fullname ": "Chiwueze Macvictor Chukwuebuka ",
         "reg": "20221319925",
         "inparentno": "09026257408",
         "Department ": "Computer Science ",
@@ -782,7 +782,7 @@
     },
     {
         "Timestamp": "2024/06/07 11:51:01 AM GMT+1",
-        "Full name ": "Agoha Daniel Chimeremeze ",
+        "Fullname ": "Agoha Daniel Chimeremeze ",
         "reg": "20221323505",
         "inparentno": "08160822575",
         "Department ": "Computer Science ",
@@ -792,7 +792,7 @@
     },
     {
         "Timestamp": "2024/06/08 10:08:23 AM GMT+1",
-        "Full name ": "Nwaulu Caleb Eniola ",
+        "Fullname ": "Nwaulu Caleb Eniola ",
         "reg": "20221314985",
         "inparentno": "08137148488",
         "Department ": "Computer science ",
@@ -802,7 +802,7 @@
     },
     {
         "Timestamp": "2024/06/08 8:54:19 PM GMT+1",
-        "Full name ": "Uzondu Tochukwu Daniel ",
+        "Fullname ": "Uzondu Tochukwu Daniel ",
         "reg": "20221308125",
         "inparentno": "09032020536",
         "Department ": "Computer Science ",
@@ -812,7 +812,7 @@
     },
     {
         "Timestamp": "2024/06/08 8:56:28 PM GMT+1",
-        "Full name ": "Onyeneke chigemezu frank",
+        "Fullname ": "Onyeneke chigemezu frank",
         "reg": "20233399282",
         "inparentno": "08021228389",
         "Department ": "Computer science ",
@@ -822,7 +822,7 @@
     },
     {
         "Timestamp": "2024/06/08 9:32:40 PM GMT+1",
-        "Full name ": "Anthony Emmanuel Nnodim",
+        "Fullname ": "Anthony Emmanuelnnodim",
         "reg": "20221341005",
         "inparentno": "09033912333",
         "Department ": "Computer science ",
@@ -832,7 +832,7 @@
     },
     {
         "Timestamp": "2024/06/08 9:39:10 PM GMT+1",
-        "Full name ": "Iwuamanam Precious Chikwado",
+        "Fullname ": "Iwuamanam Precious Chikwado",
         "reg": "20221352175",
         "inparentno": "09166910491",
         "Department ": "Computer Science",
@@ -842,7 +842,7 @@
     },
     {
         "Timestamp": "2024/06/08 10:10:11 PM GMT+1",
-        "Full name ": "Duru Valentine Chukwudi",
+        "Fullname ": "Duru Valentine Chukwudi",
         "reg": "20221336625",
         "inparentno": "09037089865",
         "Department ": "Computer science ",
@@ -852,7 +852,7 @@
     },
     {
         "Timestamp": "2024/06/08 10:51:28 PM GMT+1",
-        "Full name ": "Edighienyong, Idiokitaha Anietie",
+        "Fullname ": "Edighienyong, Idiokitaha Anietie",
         "reg": "20221332915 ",
         "inparentno": "09065319610 ",
         "Department ": "Computer science ",
