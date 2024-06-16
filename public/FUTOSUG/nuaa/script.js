@@ -85,7 +85,7 @@ async function getmovie() {
                 </div>
                 <div class="profile-bottom" style="margin-bottom:-25px";>
                     <div style="flex-direction:column;margin:-11px 0px;" class="profile-info"> 
-                        <h1 style="Font-size:18px;">- STUDENT UNION GOVERNMENT -</h1>
+                        <h2 style="Font-size:18px;">- STUDENT UNION GOVERNMENT -</h2>
                             <h1 style="margin-top:-3px;color:red;font-size:12px;">-  FEDERAL UNIVERSITY OF TECHNOLOGY OWERRI -</h1>                           
                         </div>
                          <h1 style="font-size:12px;margin-top:20px;text-align:center;padding:0 0rem;">FACULTY/DEPARTMENT</h1>
