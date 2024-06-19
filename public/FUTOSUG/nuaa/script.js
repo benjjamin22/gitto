@@ -23,7 +23,7 @@ async function getData() {
         <div class="movie">
         <img src="${user.picturepath}">
         <div class="movie-info">
-      <h3>${user.inNamer.Name} ${user.inNamer.Mname} ${user.inNamer.Surname}</h3>
+      <h3>${user.Aname.Name} ${user.Aname.Mname} ${user.Aname.Surname}</h3>
         </div></div> </a>
         `
         main.appendChild(div)
@@ -77,21 +77,21 @@ async function getmovie() {
                 <div class="profile-top">
                     <img src="${user.picturepath}">
                     <div class="profile-info">
-                        <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${user.inNamer.Name} ${user.inNamer.Mname} ${user.inNamer.Surname}</h2>  
-                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${user.reg}
+                        <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${user.Aname.Name} ${user.Aname.Mname} ${user.Aname.Surname}</h2>  
+                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${user.RegNo}
                         <<<</h1>
                     </div>
                 
                 </div>
                 <div class="profile-bottom" style="margin-bottom:-25px";>
                     <div style="flex-direction:column;margin:-11px 0px;" class="profile-info"> 
-                        <h2 style="Font-size:18px;">- STUDENT UNION GOVERNMENT -</h2>
+                        <h1 style="Font-size:18px;">- STUDENT UNION GOVERNMENT -</h1>
                             <h1 style="margin-top:-3px;color:red;font-size:12px;">-  FEDERAL UNIVERSITY OF TECHNOLOGY OWERRI -</h1>                           
                         </div>
                          <h1 style="font-size:12px;margin-top:20px;text-align:center;padding:0 0rem;">FACULTY/DEPARTMENT</h1>
                          <div style="flex-direction:column;"class="profile-info"> 
                                 <h1 style="margin-top:-1px;">- ${user.Faculty} -</h1>
-                                <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.Department} -</h1>
+                                <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.Dept} -</h1>
                             </div> 
                     </div>
                     <div class="profile-bottom">
