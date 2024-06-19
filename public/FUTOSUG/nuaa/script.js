@@ -99,20 +99,20 @@ async function getmovie() {
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">B/G</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">${user.bloodgroup}</h1>
+                                <h1 style="color:black;padding:0 .8rem;">${user.Bloodgroup}</h1>
                                 </div>
                             </div>
                             <div style="width:45%;margin:0 1px;">
                             <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1rem;">STATUS/VALIDITY</h1>
                                 <div style="flex-direction:column;"class="profile-info">
                                 <h1 style="color:black;padding:0 .8rem;margin-top:-5px;">STUDENT</h1>
-                                <h1 style="margin:0px;color:red;font-size:12px;margin-bottom:0px;line-height:.5rem;">- ${user.validity} -</h1>
+                                <h1 style="margin:0px;color:red;font-size:12px;margin-bottom:0px;line-height:.5rem;">- ${user.Validity} -</h1>
                                 </div>
                             </div>
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">GENDER</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">${user.sex}</h1>
+                                <h1 style="color:black;padding:0 .8rem;">${user.Sex}</h1>
                                 </div>
                             </div>
                         </div>
