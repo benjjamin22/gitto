@@ -4,7 +4,7 @@ const router = express.Router()
 const needle = require('needle')
 const apicache = require('apicache')
 const fs = require('fs')
-const users = require('../data/products.json')
+const users = require('../data/futo.json')
 
 // Init cache
 let cache = apicache.middleware
