@@ -51,6 +51,8 @@ app.use('/loginevette', require('./routes/evettlogin'))
 app.use('/radical', require('./routes/mydb'))
 app.use('/futo', require('./routes/FUTOSUG'))
 app.use('/futol', require('./routes/futologin'))
+app.use('/nuasalogin', require('./routes/NUASAlogin'))
+app.use('/NUASA', require('./routes/NUASA'))
 
 // Error handler middleware
 app.use(errorHandler)

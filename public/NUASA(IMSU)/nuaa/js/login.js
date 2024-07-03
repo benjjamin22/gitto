@@ -1,3 +1,4 @@
+url = '/login'
 class Login {
     constructor(form, fields) {
         this.form = form;
@@ -26,13 +27,20 @@ class Login {
                 };
                 console.log(dat);
 
-                fetch('tg.json')
+                fetch(url)
                     .then((response) => response.json())
                     .then((data) => {
                         if (data.username === dat.username && data.password === dat.password) {
                             localStorage.setItem('user', JSON.stringify(data));
                             localStorage.setItem("auth", 1);
                             this.form.submit();
+                        } else {
+                            this.setStatus(
+                                field,
+                                `${field.previousElementSibling.innerText} incorrect username or password`,
+                                "error"
+                            );
+                            return false;
                         }
                     })
                     .catch((data) => {
