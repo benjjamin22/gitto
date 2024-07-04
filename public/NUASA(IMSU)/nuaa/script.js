@@ -85,12 +85,12 @@ async function getmovie() {
                 </div>
                 <div class="profile-bottom" style="margin-bottom:-25px";>
                     <div style="flex-direction:column;margin:-11px 0px;" class="profile-info"> 
-                        <h1 style="Font-size:18px;">- NATIONAL UNIVERSITY OF -</h1>
-                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  ACCOUNTING STUDENT ASSOCIATION(IMSU) -</h1>                           
+                        <h1 style="Font-size:18px;">- NATIONAL UNIVERSITIES OF -</h1>
+                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  ACCOUNTANCY STUDENT ASSOCIATION(IMSU) -</h1>                           
                         </div>
                          <h1 style="font-size:12px;margin-top:20px;text-align:center;padding:0 0rem;">FACULTY/DEPARTMENT</h1>
                          <div style="flex-direction:column;"class="profile-info"> 
-                                <h1 style="margin-top:-1px;font-size:15px;">- BUSSINESS MANAGEMENT -</h1>
+                                <h1 style="margin-top:-1px;">- BUSSINESS MANAGEMENT -</h1>
                                 <h1 style="margin:-5px;color:red;font-size:12px;">- ACCOUNTANCY -</h1>
                             </div> 
                     </div>
@@ -99,7 +99,7 @@ async function getmovie() {
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">B/G</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">${user.Bloodgroup}</h1>
+                                <h1 style="color:black;padding:0 .8rem;">-${user.Bloodgroup}-</h1>
                                 </div>
                             </div>
                             <div style="width:45%;margin:0 1px;">
