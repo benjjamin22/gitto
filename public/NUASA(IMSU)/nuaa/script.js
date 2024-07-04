@@ -78,8 +78,7 @@ async function getmovie() {
                     <img src="${user.picturepath}">
                     <div class="profile-info">
                         <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${user.Aname.Name} ${user.Aname.Mname} ${user.Aname.Surname}</h2>  
-                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${user.Rego}
-                        <<<</h1>
+                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${user.Aname.Name}<<<</h1>
                     </div>
                 
                 </div>
@@ -90,7 +89,7 @@ async function getmovie() {
                         </div>
                          <h1 style="font-size:12px;margin-top:20px;text-align:center;padding:0 0rem;">FACULTY/DEPARTMENT</h1>
                          <div style="flex-direction:column;"class="profile-info"> 
-                                <h1 style="margin-top:-1.5px;font-size:15px;">- BUSSINESS MANAGEMENT -</h1>
+                                <h1 style="margin-top:-1.5px;font-size:15px;">- BUSINESS MANAGEMENT -</h1>
                                 <h1 style="margin:-5px;color:red;font-size:12px;">- ACCOUNTANCY -</h1>
                             </div> 
                     </div>
