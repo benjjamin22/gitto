@@ -85,12 +85,12 @@ async function getmovie() {
                 </div>
                 <div class="profile-bottom" style="margin-bottom:-25px";>
                     <div style="flex-direction:column;margin:-11px 0px;" class="profile-info"> 
-                        <h1 style="Font-size:18px;">- NATIONAL UNIVERSITIES OF -</h1>
-                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  ACCOUNTANCY STUDENT ASSOCIATION(IMSU) -</h1>                           
+                        <h1 style="Font-size:18px;">- NATIONAL UNIVERSITIES OF  -</h1>
+                            <h1 style="margin-top:-3px;color:red;font-size:12px;">- ACCOUNTANCY STUDENT ASSOCIATION(IMSU) -</h1>                           
                         </div>
                          <h1 style="font-size:12px;margin-top:20px;text-align:center;padding:0 0rem;">FACULTY/DEPARTMENT</h1>
                          <div style="flex-direction:column;"class="profile-info"> 
-                                <h1 style="margin-top:-1.5px;font-size:14px;">- BUSSINESS MANAGEMENT -</h1>
+                                <h1 style="margin-top:-1.5px;font-size:15px;">- BUSSINESS MANAGEMENT -</h1>
                                 <h1 style="margin:-5px;color:red;font-size:12px;">- ACCOUNTANCY -</h1>
                             </div> 
                     </div>
