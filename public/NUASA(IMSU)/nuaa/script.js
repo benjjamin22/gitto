@@ -85,13 +85,13 @@ async function getmovie() {
                 </div>
                 <div class="profile-bottom" style="margin-bottom:-25px";>
                     <div style="flex-direction:column;margin:-11px 0px;" class="profile-info"> 
-                        <h1 style="Font-size:18px;">- STUDENT UNION GOVERNMENT -</h1>
-                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  FEDERAL UNIVERSITY OF TECHNOLOGY OWERRI -</h1>                           
+                        <h1 style="Font-size:18px;">- NATIONAL UNIVERSITY OF -</h1>
+                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  ACCOUNTING STUDENT ASSOCIATION(IMSU) -</h1>                           
                         </div>
                          <h1 style="font-size:12px;margin-top:20px;text-align:center;padding:0 0rem;">FACULTY/DEPARTMENT</h1>
                          <div style="flex-direction:column;"class="profile-info"> 
-                                <h1 style="margin-top:-1px;">- ${user.Faculty} -</h1>
-                                <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.Dept} -</h1>
+                                <h1 style="margin-top:-1px;font-size:15px;">- BUSSINESS MANAGEMENT -</h1>
+                                <h1 style="margin:-5px;color:red;font-size:12px;">- ACCOUNTANCY -</h1>
                             </div> 
                     </div>
                     <div class="profile-bottom">
@@ -99,53 +99,53 @@ async function getmovie() {
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">B/G</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">${user.Bloodgroup}</h1>
+                                <h1 style="color:black;padding:0 .8rem;font-size:15px;">${user.Bloodgroup}</h1>
                                 </div>
                             </div>
                             <div style="width:45%;margin:0 1px;">
                             <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1rem;">STATUS/VALIDITY</h1>
                                 <div style="flex-direction:column;"class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;margin-top:-5px;">STUDENT</h1>
+                                <h1 style="color:black;padding:0 .8rem;margin-top:-5px;font-size:15px;">MEMBER</h1>
                                 <h1 style="margin:0px;color:red;font-size:12px;margin-bottom:0px;line-height:.5rem;">- ${user.Validity} -</h1>
                                 </div>
                             </div>
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">GENDER</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">${user.Sex}</h1>
+                                <h1 style="color:black;padding:0 .8rem;font-size:15px;">${user.Sex}</h1>
                                 </div>
                             </div>
                         </div>
                         
                         <h1 style="font-size:12px;margin-top:-8px;text-align:center;padding:0 0rem;">LGA/STATE OF ORIGIN</h1>
                             <div style="flex-direction:column;"class="profile-info"> 
-                                <h1 style="margin-top:-1px;">-  -</h1>
-                                <h1 style="margin:-5px;color:red;font-size:12px;">-  -</h1>
+                                <h1 style="margin-top:-1px;font-size:15px;">- ${user.State} -</h1>
+                                <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.LocalGovt} -</h1>
                             </div> 
                             
                             <ul style="margin-bottom:7rem;">
                                 <li>
                                     <img class="dropDown" src="./facebook.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:20rem;background-color: aqua;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:26.6rem;background-color: rgb(28, 88, 158);margin-left: -5rem;color:white">facebook:</li>
+                                        <li style="justify-content: center;width:26.6rem;background-color: rgb(28, 88, 158);margin-left: -5rem;color:white">facebook:${user.Facebook}</li>
                                     </ul>
                                 </li>
                                 <li>
                                 <img class="dropDown" src="./instagrame.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:5rem;background-color: red;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:27rem;background-color: red;margin-left:-10rem;color:white">instagrame:</li>
+                                        <li style="justify-content: center;width:27rem;background-color: red;margin-left:-10rem;color:white">instagrame:${user.Instagram}</li>
                                     </ul>
                                 </li>
                                 <li>
                                 <img class="dropDown" src="./tiktok.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:5rem;background-color: orangered;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:27rem;background-color:#313131;margin-left: -14.8rem;color:white">tiktok:</li>
+                                        <li style="justify-content: center;width:27rem;background-color:#313131;margin-left: -14.8rem;color:white">tiktok:${user.Tiktok}</li>
                                     </ul>
                                 </li>
                                 <li>
                                 <img class="dropDown" src="./twitter.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:5rem;background-color: tomato;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:27rem;background-color: rgb(28, 88, 158);margin-left: -19.7rem;color:white">twitter:</li>
+                                        <li style="justify-content: center;width:27rem;background-color: rgb(28, 88, 158);margin-left: -19.7rem;color:white">twitter:${user.Twitter}</li>
                                     </ul>
                                 </li>
                             </ul>
