@@ -89,8 +89,8 @@ async function getmovie() {
                         </div>
                          <h1 style="font-size:12px;margin-top:20px;text-align:center;padding:0 0rem;">FACULTY/DEPARTMENT</h1>
                          <div style="flex-direction:column;"class="profile-info"> 
-                                <h1 style="margin-top:-1.5px;font-size:15px;">- BUSINESS MANAGEMENT -</h1>
-                                <h1 style="margin:-5px;color:red;font-size:12px;">- ACCOUNTANCY -</h1>
+                                <h1 style="margin-top:-1.5px;font-size:17px;">- BUSINESS MANAGEMENT -</h1>
+                                <h1 style="margin:-5px;color:red;font-size:15px;">- ACCOUNTANCY -</h1>
                             </div> 
                     </div>
                     <div class="profile-bottom">
