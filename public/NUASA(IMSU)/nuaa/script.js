@@ -78,7 +78,7 @@ async function getmovie() {
                     <img src="${user.picturepath}">
                     <div class="profile-info">
                         <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${user.Aname.Name} ${user.Aname.Mname} ${user.Aname.Surname}</h2>  
-                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${user.Aname.Name}<<<</h1>
+                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>><<<</h1>
                     </div>
                 
                 </div>
@@ -98,7 +98,7 @@ async function getmovie() {
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">B/G</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">- ${user.Bloodgroup} -</h1>
+                                <h1 style="color:black;padding:0 .8rem;">${user.Bloodgroup}</h1>
                                 </div>
                             </div>
                             <div style="width:45%;margin:0 1px;">
