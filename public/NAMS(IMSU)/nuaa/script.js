@@ -119,29 +119,29 @@ async function getmovie() {
                                 <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.LocalGovernment} -</h1>
                             </div> 
                             
-                            <ul style="margin-bottom:7rem;">
+                           <ul style="margin-bottom:7rem;">
                                 <li>
                                     <img class="dropDown" src="./facebook.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:20rem;background-color: aqua;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:26.6rem;background-color: rgb(28, 88, 158);margin-left: -5rem;color:white">facebook:</li>
+                                        <li style="justify-content: center;width:26.6rem;background-color: rgb(28, 88, 158);margin-left: -5rem;color:white">facebook:${user.Facebook}</li>
                                     </ul>
                                 </li>
                                 <li>
                                 <img class="dropDown" src="./instagrame.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:5rem;background-color: red;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:27rem;background-color: red;margin-left:-10rem;color:white">instagrame:</li>
+                                        <li style="justify-content: center;width:27rem;background-color: red;margin-left:-10rem;color:white">instagrame:${user.Instagram}</li>
                                     </ul>
                                 </li>
                                 <li>
                                 <img class="dropDown" src="./tiktok.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:5rem;background-color: orangered;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:27rem;background-color:#313131;margin-left: -14.8rem;color:white">tiktok:</li>
+                                        <li style="justify-content: center;width:27rem;background-color:#313131;margin-left: -14.8rem;color:white">tiktok:${user.Tiktok}</li>
                                     </ul>
                                 </li>
                                 <li>
                                 <img class="dropDown" src="./twitter.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:5rem;background-color: tomato;height: 2rem;justify-content: center; text-align: center;">
-                                        <li style="justify-content: center;width:27rem;background-color: rgb(28, 88, 158);margin-left: -19.7rem;color:white">twitter:</li>
+                                        <li style="justify-content: center;width:27rem;background-color: rgb(28, 88, 158);margin-left: -19.7rem;color:white">twitter:${user.Twitter}</li>
                                     </ul>
                                 </li>
                             </ul>
