@@ -1538,30 +1538,33 @@
         "id": "4c4b06dd-da5d-4af2-9e2d-3079de92cca9",
         "YT": "9",
         "__v": 0
-    }, {
+    },
+    {
         "_id": {
-            "$oid": "6683973732f1dd4542e1da25"
+            "$oid": "668ea21c1d7f8e97cdc45a36"
         },
         "Aname": {
             "Name": "FAVOUR",
             "Mname": "CHIKA ",
             "Surname": "AYOZIEUWA "
         },
-        "School": "IMO STATE UNIVERSITY ",
-        "Faculty": "100L",
-        "Dept": "29 SEPTEMBER 2003",
-        "State": "IMO",
-        "LocalGovt": "AWO-MBEIRIE",
-        "RegNo": "",
+        "School": "NUASA IMSU",
+        "State": "IMO STATE ",
+        "LocalGovt": "AWO-MBEIRIE ",
+        "RegNo": "202330856269IA",
         "Bloodgroup": "O+",
         "Sex": "FEMALE ",
-        "Validity": "2023",
-        "PhoneNo": "08148964994",
-        "EmergencyNo": "09139954714",
+        "Validity": "",
+        "PhoneNo": "08081374550",
+        "EmergencyNo": "",
+        "Facebook": "Favor Chikadibia ",
+        "Instagram": "",
+        "Tiktok": "@Ayozieuwafavour",
+        "Twitter": "",
         "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/f3aa2d61-47f6-42f1-81b2-cc6ca65f0bfa.jpg",
-        "image": "d9f15073-87f0-4487-91ca-87c5d1c50d09",
-        "id": "55fda12b-07ad-426c-a73a-1eb642d40a18",
-        "YT": "11",
+        "iu": "f3aa2d61-47f6-42f1-81b2-cc6ca65f0bfa",
+        "id": "b1cb6c95-d7b8-416f-a636-fdc5ca54d940",
+        "yt": "13",
         "__v": 0
     }, {
         "_id": {
