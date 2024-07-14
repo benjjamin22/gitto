@@ -28,6 +28,32 @@
     },
     {
         "_id": {
+            "$oid": "6692e5580d2595119f328201"
+        },
+        "Aname": {
+            "Name": "FAVOUR",
+            "Mname": "CHIDERA",
+            "Surname": "IFEANYI-CHUKWU "
+        },
+        "School": "NUASA IMSU",
+        "State": "IMO",
+        "LocalGovt": "IHITTE/UBOMA ",
+        "RegNo": "202330612837AF",
+        "Bloodgroup": "O+",
+        "Sex": "FEMALE ",
+        "Validity": "",
+        "PhoneNo": "07040391460",
+        "EmergencyNo": "07063390967",
+        "Facebook": "",
+        "Instagram": "",
+        "Tiktok": "",
+        "Twitter": "",
+        "picturepath": "/nuasa1/f25c236b-8641-4b95-86ab-9eca0280bb7c.jpg",
+        "id": "6036e426-5982-4e8e-a0af-6e9427b5a198",
+        "__v": 0
+    },
+    {
+        "_id": {
             "$oid": "66852db8ba7160004c4fa1ab"
         },
         "Aname": {
