@@ -1568,6 +1568,32 @@
         "__v": 0
     }, {
         "_id": {
+            "$oid": "66927032063048da6bec0a42"
+        },
+        "Aname": {
+            "Name": "MARVELLOUS",
+            "Mname": "CASARACHI",
+            "Surname": "OKEHIE"
+        },
+        "School": "NUASA IMSU",
+        "State": "IMO",
+        "LocalGovt": "NWANGELE",
+        "RegNo": "202331556606JF",
+        "Bloodgroup": "O+",
+        "Sex": "FEMALE",
+        "Validity": "",
+        "PhoneNo": "09044574001",
+        "EmergencyNo": "08060597439",
+        "Facebook": "",
+        "Instagram": "",
+        "Tiktok": "",
+        "Twitter": "",
+        "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/9c392acd-1ab3-44fa-a678-911a40c04bc4.jpg",
+        "id": "8fe89ee3-299a-4579-af44-72d3aab63bb3",
+        "yt": "58",
+        "__v": 0
+    }, {
+        "_id": {
             "$oid": "66883f77e3f0292933410866"
         },
         "Aname": {
