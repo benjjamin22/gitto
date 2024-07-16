@@ -13,6 +13,9 @@ const PORT = process.env.PORT || 5000
 const app = express()
 app.use(express.json())
 
+app.get(["/", "/index.html"], (req, res) => {
+    res.sendFile(__dirname + "/index.html");
+});
 
 
 
@@ -39,7 +42,7 @@ app.set('trust proxy', 1)
 app.use(cors())
 
 // Set static folder
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
 app.use('/api', require('./routes'))
