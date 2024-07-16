@@ -107,7 +107,11 @@ async function getmovie() {
                                 <h1 style="color:black;padding:0 .8rem;margin-top:-5px;">MEMBER</h1>
                                 </div>
                             </div>
-                            <div style="width:31%;margin:0 1px;">
+                            <div style="width:31%;margin:0 1px;">git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/benjjamin22/gitto.git
+git push -u origin main
+
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1rem;">GENDER</h1>
                                 <div class="profile-info">
                                 <h1 style="color:black;padding:0 .8rem;margin-top:-5px;">${user.Sex}</h1>
