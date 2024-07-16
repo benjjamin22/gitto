@@ -98,7 +98,7 @@ async function getmovie() {
                             <div style="width:31%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">VALIDITY</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;margin-top:-5px;">2028</h1>
+                                <h1 style="color:black;padding:0 .8rem;margin-top:-5px;">${user.Validity}</h1>
                                 </div>
                             </div>
                             <div style="width:31%;margin:0 1px;">
