@@ -13,9 +13,9 @@ const PORT = process.env.PORT || 5000
 const app = express()
 app.use(express.json())
 
-app.get(["/", "/index.html"], (req, res) => {
-    res.sendFile(__dirname + "/index.html");
-});
+//app.get(["/", "/index.html"], (req, res) => {
+//  res.sendFile(__dirname + "/index.html");
+//});
 
 
 
