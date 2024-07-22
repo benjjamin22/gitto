@@ -7,21 +7,25 @@ url = '/futo'
 
 // Initialize cart item count
 
-//getfecth()
+getfecth()
 
 // Initialize products
 const productsEls = [];
 
-//async function getfecth() {
-// Loop over the products and create the product element
-//const res = await fetch(url)
-//const { nuasa } = await res.json()
-//productsWrapperEl.innerHTML = ''
-nuasa.forEach((product) => {
-    const productEl = createProductElement(product);
-    productsEls.push(productEl);
-    productsWrapperEl.appendChild(productEl);
-});
+
+
+async function getfecth() {
+    // Loop over the products and create the product element
+    const res = await fetch('https://benjjamin22.github.io/filter/data/FUTOSUG.json')
+    const { nuasa } = await res.json()
+        //productsWrapperEl.innerHTML = ''
+    nuasa.forEach((product) => {
+        const productEl = createProductElement(product);
+        productsEls.push(productEl);
+        productsWrapperEl.appendChild(productEl);
+    });
+
+};
 //}
 
 filtersContainer.addEventListener('change', filterProducts);
@@ -39,8 +43,10 @@ function createProductElement(product) {
     return productEl;
 }
 
-function filterProducts() {
-    // Get search term
+async function filterProducts() {
+    const res = await fetch('https://benjjamin22.github.io/filter/data/FUTOSUG.json')
+    const { nuasa } = await res.json()
+        // Get search term
     const searchTerm = searchInput.value.trim().toLowerCase();
     // Get checked categories
     const checkedCategories = Array.from(checkEls)
@@ -72,7 +78,7 @@ function filterProducts() {
 getmovieee();
 async function getmovieee() {
     let objects = document.getElementById("objects");
-    const res = await fetch(url)
+    const res = await fetch('https://benjjamin22.github.io/filter/data/FUTOSUG.json')
     const { nuasa } = await res.json()
     let allObject = nuasa.filter((val) => {
         if (typeof val == 'object') {
@@ -94,7 +100,7 @@ function movieselected(id) {
 async function getmovie() {
     let movieId = sessionStorage.getItem('movieId');
     console.log(movieId)
-    const res = await fetch(url)
+    const res = await fetch('https://benjjamin22.github.io/filter/data/FUTOSUG.json')
     const { nuasa } = await res.json()
     let id = nuasa.filter(ids => ids.id === movieId);
     console.log(id)
