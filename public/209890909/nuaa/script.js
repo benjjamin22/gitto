@@ -58,7 +58,7 @@ async function filterProducts() {
         const product = nuasa[index];
 
         // Check to see if product matches the search or checked items
-        const matchesSearchTerm = product.Aname.Name.toLowerCase().includes(searchTerm);
+        const matchesSearchTerm = productEl.innerText.toLowerCase().includes(searchTerm);
         const isInCheckedCategory =
             checkedCategories.length === 0 ||
             checkedCategories.includes(product.Faculty);
