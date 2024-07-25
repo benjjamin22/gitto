@@ -23,7 +23,7 @@ async function getData() {
         <div class="movie">
         <img src="${user.picturepath}">
         <div class="movie-info">
-      <h3>${user.Fullname}</h3>
+      <h3>${user.Name}</h3>
       <span>${user.Phoneno1}</span>
         </div></div> 
         `
