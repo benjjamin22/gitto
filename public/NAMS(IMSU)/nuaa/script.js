@@ -1,45 +1,75 @@
-const search = document.getElementById('search');
-const main = document.getElementById('main');
+const searchInput = document.getElementById('search');
+const productsWrapperEl = document.getElementById('main');
 const form = document.getElementById('form')
+const checkEls = document.querySelectorAll('.check');
+const filtersContainer = document.getElementById('filters-container');
 url = '/nams'
 
-const listItems = []
+// Initialize cart item count
 
-getData()
+getfecth()
 
-search.addEventListener('input', (e) => filterData(e.target.value));
+// Initialize products
+const productsEls = [];
 
-async function getData() {
+
+
+async function getfecth() {
+    // Loop over the products and create the product element
     const res = await fetch(url)
     const { nuasa } = await res.json()
+        //productsWrapperEl.innerHTML = ''
+    nuasa.forEach((product) => {
+        const productEl = createProductElement(product);
+        productsEls.push(productEl);
+        productsWrapperEl.appendChild(productEl);
+    });
 
-    // Clear result
-    main.innerHTML = ''
+};
+//}
 
-    nuasa.forEach(user => {
-        const div = document.createElement('div')
-        listItems.push(div)
-        div.innerHTML = `<a style="text-decoration:none;" onclick="movieselected('${user.id}')"href="#">
-        <div class="movie">
-        <img src="${user.picturepath}">
-        <div class="movie-info">
-      <h3>${user.Name}</h3>
-      <span>${user.Phoneno1}</span>
-        </div></div> 
-        `
-        main.appendChild(div)
+filtersContainer.addEventListener('change', filterProducts);
+searchInput.addEventListener('input', filterProducts);
 
-    })
+// Create product element
+function createProductElement(product) {
+    const productEl = document.createElement('div');
+    productEl.innerHTML = `<a style="text-decoration:none;" onclick="movieselected('${product.id}')"href="#">
+    <div class="movie">
+    <img src="${product.picturepath}">
+    <div class="movie-info">
+  <h3>${product.Name} </h3>
+    </div></div> </a> `
+    return productEl;
 }
 
-function filterData(searchTerm) {
-    listItems.forEach(item => {
-        if (item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
-            item.classList.remove('hide')
+async function filterProducts() {
+    const res = await fetch(url)
+    const { nuasa } = await res.json()
+        // Get search term
+    const searchTerm = searchInput.value.trim().toLowerCase();
+    // Get checked categories
+    const checkedCategories = Array.from(checkEls)
+        .filter((check) => check.checked)
+        .map((check) => check.id);
+
+    // Loop over products and check for matches
+    productsEls.forEach((productEl, index) => {
+        const product = nuasa[index];
+
+        // Check to see if product matches the search or checked items
+        const matchesSearchTerm = productEl.innerText.toLowerCase().includes(searchTerm);
+        const isInCheckedCategory =
+            checkedCategories.length === 0 ||
+            checkedCategories.includes(product.YearofAdmin);
+
+        // Show or hide product based on matches
+        if (matchesSearchTerm && isInCheckedCategory) {
+            productEl.classList.remove('hide');
         } else {
-            item.classList.add('hide')
+            productEl.classList.add('hide');
         }
-    })
+    });
 }
 getmovieee();
 async function getmovieee() {
