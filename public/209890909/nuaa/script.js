@@ -36,7 +36,7 @@ function createProductElement(product) {
     const productEl = document.createElement('div');
     productEl.innerHTML = `<a style="text-decoration:none;" onclick="movieselected('${product.id}')"href="#">
     <div class="movie">
-    <img style="background-image: linear-gradient(to top, #0f2027, #203a4300, #2c536400);" src="${product.picturepath}">
+    <img src="${product.picturepath}">
     <div class="movie-info">
   <h3>${product.Aname.Name} ${product.Aname.Mname} ${product.Aname.Surname}</h3>
     </div></div> </a> `
@@ -109,16 +109,13 @@ async function getmovie() {
         const li = document.createElement('li')
         li.innerHTML = `
             <div class="product-profile">
-                <div class="profile-top">
-                
-                    <img style="background-image: linear-gradient(to top, #0f2027, #203a4300, #2c536400);"src="${product.picturepath}">
-                   
+                <div class="profile-top"> 
+                    <img src="${product.picturepath}">
                     <div class="profile-info">
                         <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${product.Aname.Name} ${product.Aname.Mname} ${product.Aname.Surname}</h2>  
                         <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${product.RegNo}
                         <<<</h1>
                     </div>
-                
                 </div>
                 <div class="profile-bottom" style="margin-bottom:-25px";>
                     <div style="flex-direction:column;margin:-11px 0px;" class="profile-info"> 
