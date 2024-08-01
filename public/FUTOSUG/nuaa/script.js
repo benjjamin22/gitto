@@ -16,7 +16,7 @@ const productsEls = [];
 
 async function getfecth() {
     // Loop over the products and create the product element
-    const res = await fetch('https://benjjamin22.github.io/filter/data/FUTOSUG.json')
+    const res = await fetch(url)
     const { nuasa } = await res.json()
         //productsWrapperEl.innerHTML = ''
     nuasa.forEach((product) => {
@@ -44,7 +44,7 @@ function createProductElement(product) {
 }
 
 async function filterProducts() {
-    const res = await fetch('https://benjjamin22.github.io/filter/data/FUTOSUG.json')
+    const res = await fetch(url)
     const { nuasa } = await res.json()
         // Get search term
     const searchTerm = searchInput.value.trim().toLowerCase();
@@ -78,7 +78,7 @@ async function filterProducts() {
 getmovieee();
 async function getmovieee() {
     let objects = document.getElementById("objects");
-    const res = await fetch('https://benjjamin22.github.io/filter/data/FUTOSUG.json')
+    const res = await fetch(url)
     const { nuasa } = await res.json()
     let allObject = nuasa.filter((val) => {
         if (typeof val == 'object') {
@@ -100,7 +100,7 @@ function movieselected(id) {
 async function getmovie() {
     let movieId = sessionStorage.getItem('movieId');
     console.log(movieId)
-    const res = await fetch('https://benjjamin22.github.io/filter/data/FUTOSUG.json')
+    const res = await fetch(url)
     const { nuasa } = await res.json()
     let id = nuasa.filter(ids => ids.id === movieId);
     console.log(id)
