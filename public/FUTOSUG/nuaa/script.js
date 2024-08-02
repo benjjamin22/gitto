@@ -72,9 +72,6 @@ async function filterProducts() {
     });
 }
 
-
-
-
 getmovieee();
 async function getmovieee() {
     let objects = document.getElementById("objects");
@@ -105,59 +102,62 @@ async function getmovie() {
     let id = nuasa.filter(ids => ids.id === movieId);
     console.log(id)
 
-    const html = id.map(product => {
+    const html = id.map(user => {
         const li = document.createElement('li')
         li.innerHTML = `
-            <div class="product-profile">
-                <div class="profile-top"> 
-                    <img src="${product.picturepath}">
+            <div class="user-profile">
+                <div class="profile-top">
+                    <img src="${user.picturepath}">
                     <div class="profile-info">
-                        <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${product.Aname.Name} ${product.Aname.Mname} ${product.Aname.Surname}</h2>  
-                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${product.RegNo}
+                        <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${user.Aname.Name} ${user.Aname.Mname} ${user.Aname.Surname}</h2>  
+                        <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${user.RegNo}
                         <<<</h1>
                     </div>
+                
                 </div>
-                <div class="profile-bottom" style="margin-bottom:-25px";>
+                <div class="profile-bottom">
                     <div style="flex-direction:column;margin:-11px 0px;" class="profile-info"> 
-                        <h1 style="Font-size:18px;">- STUDENT UNION GOVERNMENT -</h1>
-                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  FEDERAL UNIVERSITY OF TECHNOLOGY OWERRI -</h1>                           
+                        <h1>STUDENTS UNION GOVERNMENT</h1>
+                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  FEDERAL UNIVERSITY OF TECHNOLOGY OWERRI -</h1>
                         </div>
-                         <h1 style="font-size:12px;margin-top:20px;text-align:center;padding:0 0rem;">FACULTY/DEPARTMENT</h1>
-                         <div style="flex-direction:column;"class="profile-info"> 
-                                <h1 style="margin-top:-1px;">- ${product.Faculty} -</h1>
-                                <h1 style="margin:-5px;color:red;font-size:12px;">- ${product.Dept} -</h1>
-                            </div> 
                     </div>
                     <div class="profile-bottom">
+                      
+                     <h1 style="font-size:12px;margin-top:-8px;text-align:center;padding:0 0rem;">FACULTY/DEPARTMENT</h1>
+                            <div style="flex-direction:column;"class="profile-info"> 
+                                <h1 style="margin-top:-1px;">- ${user.Faculty}-</h1>
+                                <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.Dept} -</h1>
+                            </div> 
+                            
                         <div style="display:flex;">
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">B/G</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">${product.Bloodgroup}</h1>
+                                <h1 style="color:black;padding:0 .8rem;">${user.Bloodgroup}</h1>
                                 </div>
                             </div>
                             <div style="width:45%;margin:0 1px;">
                             <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1rem;">STATUS/VALIDITY</h1>
                                 <div style="flex-direction:column;"class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;margin-top:-5px;">STUDENT</h1>
-                                <h1 style="margin:0px;color:red;font-size:12px;margin-bottom:0px;line-height:.5rem;">- ${product.Validity} -</h1>
+                                <h1 style="color:black;padding:0 .8rem;margin-top:-5px;">${user.Status}</h1>
+                                <h1 style="margin:0px;color:red;font-size:12px;margin-bottom:0px;line-height:.5rem;">- ${user.Validity} -</h1>
                                 </div>
                             </div>
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">GENDER</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">${product.Sex}</h1>
+                                <h1 style="color:black;padding:0 .8rem;">${user.Sex}</h1>
                                 </div>
                             </div>
                         </div>
                         
                         <h1 style="font-size:12px;margin-top:-8px;text-align:center;padding:0 0rem;">LGA/STATE OF ORIGIN</h1>
                             <div style="flex-direction:column;"class="profile-info"> 
-                                <h1 style="margin-top:-1px;">-  -</h1>
+                                <h1 style="margin-top:-1px;">- -</h1>
                                 <h1 style="margin:-5px;color:red;font-size:12px;">-  -</h1>
                             </div> 
                             
-                            <ul style="margin-bottom:7rem;">
+                           <ul style="margin-bottom:7rem;">
                                 <li>
                                     <img class="dropDown" src="./facebook.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:20rem;background-color: aqua;height: 2rem;justify-content: center; text-align: center;">
