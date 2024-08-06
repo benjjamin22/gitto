@@ -1,77 +1,46 @@
-const searchInput = document.getElementById('search');
-const productsWrapperEl = document.getElementById('main');
+const search = document.getElementById('search');
+const main = document.getElementById('main');
 const form = document.getElementById('form')
-const checkEls = document.querySelectorAll('.check');
-const filtersContainer = document.getElementById('filters-container');
-url = '/futo'
+url = '/evette'
 
-// Initialize cart item count
+const listItems = []
 
-getfecth()
+getData()
 
-// Initialize products
-const productsEls = [];
+search.addEventListener('input', (e) => filterData(e.target.value));
 
-
-
-async function getfecth() {
-    // Loop over the products and create the product element
+async function getData() {
     const res = await fetch(url)
     const { nuasa } = await res.json()
-        //productsWrapperEl.innerHTML = ''
-    nuasa.forEach((product) => {
-        const productEl = createProductElement(product);
-        productsEls.push(productEl);
-        productsWrapperEl.appendChild(productEl);
-    });
 
-};
-//}
+    // Clear result
+    main.innerHTML = ''
 
-filtersContainer.addEventListener('change', filterProducts);
-searchInput.addEventListener('input', filterProducts);
+    nuasa.forEach(user => {
+        const div = document.createElement('div')
+        listItems.push(div)
+        div.innerHTML = `<a style="text-decoration:none;" onclick="movieselected('${user.id}')"href="#">
+        <div class="movie">
+        <img src="${user.picturepath}">
+        <div class="movie-info">
+      <h3>>${user.Aname.Name}    ${user.Aname.Mname}   ${user.Aname.Surname} </h3>
+      <span></span>
+        </div></div> </a>
+        `
+        main.appendChild(div)
 
-// Create product element
-function createProductElement(product) {
-    const productEl = document.createElement('div');
-    productEl.innerHTML = `<a style="text-decoration:none;" onclick="movieselected('${product.id}')"href="#">
-    <div class="movie">
-    <img src="${product.picturepath}">
-    <div class="movie-info">
-  <h3>${product.Aname.Name} ${product.Aname.Mname} ${product.Aname.Surname}</h3>
-    </div></div> </a> `
-    return productEl;
+    })
 }
 
-async function filterProducts() {
-    const res = await fetch(url)
-    const { nuasa } = await res.json()
-        // Get search term
-    const searchTerm = searchInput.value.trim().toLowerCase();
-    // Get checked categories
-    const checkedCategories = Array.from(checkEls)
-        .filter((check) => check.checked)
-        .map((check) => check.id);
-
-    // Loop over products and check for matches
-    productsEls.forEach((productEl, index) => {
-        const product = nuasa[index];
-
-        // Check to see if product matches the search or checked items
-        const matchesSearchTerm = productEl.innerText.toLowerCase().includes(searchTerm);
-        const isInCheckedCategory =
-            checkedCategories.length === 0 ||
-            checkedCategories.includes(product.Faculty);
-
-        // Show or hide product based on matches
-        if (matchesSearchTerm && isInCheckedCategory) {
-            productEl.classList.remove('hide');
+function filterData(searchTerm) {
+    listItems.forEach(item => {
+        if (item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
+            item.classList.remove('hide')
         } else {
-            productEl.classList.add('hide');
+            item.classList.add('hide')
         }
-    });
+    })
 }
-
 getmovieee();
 async function getmovieee() {
     let objects = document.getElementById("objects");
@@ -109,7 +78,7 @@ async function getmovie() {
                 <div class="profile-top">
                     <img src="${user.picturepath}">
                     <div class="profile-info">
-                        <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${user.Aname.Name} ${user.Aname.Mname} ${user.Aname.Surname}</h2>  
+                        <h2 style="color:white;text-align:center;margin-bottom:0px;line-height:2rem;">${user.Aname.Name}  ${user.Aname.Mname}  ${user.Aname.Surname}</h2>  
                         <h1 style="margin-top:3px;margin-bottom:0px;line-height:1rem;">>>>${user.RegNo}
                         <<<</h1>
                     </div>
@@ -117,70 +86,62 @@ async function getmovie() {
                 </div>
                 <div class="profile-bottom">
                     <div style="flex-direction:column;margin:-11px 0px;" class="profile-info"> 
-                        <h1>STUDENTS UNION GOVERNMENT</h1>
-                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  FEDERAL UNIVERSITY OF TECHNOLOGY OWERRI -</h1>
+                        <h1>- EVETTE INSTITUTE OF -</h1>
+                            <h1 style="margin-top:-3px;color:red;font-size:12px;">-  CATERING AND HOTEL MANAGMENT -</h1>
                         </div>
                     </div>
                     <div class="profile-bottom">
-                      
-                     <h1 style="font-size:12px;margin-top:-8px;text-align:center;padding:0 0rem;">FACULTY/DEPARTMENT</h1>
-                            <div style="flex-direction:column;"class="profile-info"> 
-                                <h1 style="margin-top:-1px;">- ${user.Faculty}-</h1>
-                                <h1 style="margin:-5px;color:red;font-size:12px;">- ${user.Dept} -</h1>
-                            </div> 
-                            
                         <div style="display:flex;">
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">B/G</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">-</h1>
+                                <h1 style="color:black;padding:0 .8rem;">${user.Bloodgroup}</h1>
                                 </div>
                             </div>
                             <div style="width:45%;margin:0 1px;">
                             <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1rem;">STATUS/VALIDITY</h1>
                                 <div style="flex-direction:column;"class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;margin-top:-5px;">${user.Status}</h1>
+                                <h1 style="color:black;padding:0 .8rem;margin-top:-5px;">STUDENT</h1>
                                 <h1 style="margin:0px;color:red;font-size:12px;margin-bottom:0px;line-height:.5rem;">- ${user.Validity} -</h1>
                                 </div>
                             </div>
                             <div style="width:25%;margin:0 1px;">
                                 <h1 style="font-size:12px;margin-top:-5px;text-align:center;padding:0 1.5rem;">GENDER</h1>
                                 <div class="profile-info">
-                                <h1 style="color:black;padding:0 .8rem;">-</h1>
+                                <h1 style="color:black;padding:0 .8rem;">${user.Sex}</h1>
                                 </div>
                             </div>
                         </div>
                         
                         <h1 style="font-size:12px;margin-top:-8px;text-align:center;padding:0 0rem;">LGA/STATE OF ORIGIN</h1>
                             <div style="flex-direction:column;"class="profile-info"> 
-                                <h1 style="margin-top:-1px;">- -</h1>
+                                <h1 style="margin-top:-1px;">-  -</h1>
                                 <h1 style="margin:-5px;color:red;font-size:12px;">-  -</h1>
                             </div> 
-
-                            <div style="display:flex;margin:-9px 0px;;justify-content:center;">
-                            <div>
-                                <h1 style="font-size:12px;margin:0px;text-align:center;">CONTACT:</h1>
-                                <div class="profile-info">
-                                    <a style="text-decoration: none;" href="Tel:${user.PhoneNo}">
-                                        <div style="margin-left: 0px;"class="p1">
-                                            <p2 style="margin-left: 0px;">${user.PhoneNo}</p2>
-                                        </div>
-                                    </a>                   
+                            <div style="display:flex;margin:-9px 0px;;justify-content:center;margin-top:.3rem;">
+                                <div>
+                                    <h1 style="font-size:12px;margin:0px;text-align:center;">CONTACT:</h1>
+                                    <div class="profile-info">
+                                        <a style="text-decoration: none;" href="Tel:${user.inparentno}">
+                                            <div style="margin-left: 0px;"class="p1">
+                                                <p2 style="margin-left: 0px;">-</p2>
+                                            </div>
+                                        </a>                   
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h1 style="font-size:12px;margin:0px;text-align:center;">EMERGENCY CONTACT:</h1>
-                                <div class="profile-info">
-                                    <a style="text-decoration: none;" href="Tel:">
-                                        <div style="margin-left: 0px;"class="p2">
-                                            <p2 style="margin-left: 0px;"></p2>
-                                        </div>
-                                    </a>                   
-                                </div>                           
-                            </div>
+                                <div>
+                                    <h1 style="font-size:12px;margin:0px;text-align:center;">EMERGENCY CONTACT:</h1>
+                                    <div class="profile-info">
+                                        <a style="text-decoration: none;" href="Tel:${user.inparentno2}">
+                                            <div style="margin-left: 0px;"class="p2">
+                                                <p2 style="margin-left: 0px;">-</p2>
+                                            </div>
+                                        </a>                   
+                                    </div>                           
+                                </div>
                         </div>
                             
-                           <ul style="margin-bottom:7rem;">
+                            <ul style="margin-bottom:7rem;margin-top:.5rem;">
                                 <li>
                                     <img class="dropDown" src="./facebook.jpg"style="width:60px;height:60px; border-radius:50px;"></span>
                                     <ul style="width:20rem;background-color: aqua;height: 2rem;justify-content: center; text-align: center;">
