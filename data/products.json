@@ -1,4 +1,84 @@
 [{
+    "Aname": {
+        "Name": "IMMACULATA ",
+        "Mname": "CHIAMAKA",
+        "Surname": "ORJI"
+    },
+    "_id": "66afa18704c07733a49d4717",
+    "School": "FUTO SUG",
+    "Status": "MEMBER",
+    "Faculty": "SBMS",
+    "Dept": "HUMAN ANATOMY ",
+    "RegNo": "20231389777",
+    "Validity": "2028",
+    "PhoneNo": "09161035603",
+    "EmergencyNo": "",
+    "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/af52e6bc-b1ed-444c-aec4-48ab6918889a.jpg",
+    "time": "2024-08-04 15:43:03",
+    "id": "31c0cfa7-e2c0-461f-bb2a-ddf83b8a760b",
+    "__v": 0
+},
+{
+    "Aname": {
+        "Name": "CHIDERA ",
+        "Mname": "DUKE ",
+        "Surname": "OKORIE "
+    },
+    "_id": "66afa43704c07733a49d4720",
+    "School": "FUTO SUG",
+    "Status": "MEMBER",
+    "Faculty": "SICT ",
+    "Dept": "IFT",
+    "RegNo": "20231385792",
+    "Validity": "2028",
+    "PhoneNo": "08122006559",
+    "EmergencyNo": "",
+    "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/6cc0a8f7-ca6c-4bc0-974b-ad30701fbf2e.jpg",
+    "time": "2024-08-04 15:54:31",
+    "id": "a27ca9f8-6f90-49d3-8bee-02f898e167d4",
+    "__v": 0
+},
+{
+    "Aname": {
+        "Name": "NNEMNA",
+        "Mname": "EUGENIA",
+        "Surname": "OBODOAGU"
+    },
+    "_id": "66afa70004c07733a49d4724",
+    "School": "FUTO SUG",
+    "Status": "MEMBER",
+    "Faculty": "SOBS",
+    "Dept": "BIOCHEMISTRY ",
+    "RegNo": "20231380515",
+    "Validity": "2028",
+    "PhoneNo": "09065098356",
+    "EmergencyNo": "",
+    "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/576bccf1-84c2-41d6-8b72-fa74d5d7fe72.jpg",
+    "time": "2024-08-04 16:06:24",
+    "id": "ceb57475-910b-4612-a016-1c3d324e9ab3",
+    "__v": 0
+},
+{
+    "Aname": {
+        "Name": "CHINEDUM ",
+        "Mname": "STANLEY ",
+        "Surname": "AMAECHINA "
+    },
+    "_id": "66afa72d04c07733a49d4726",
+    "School": "FUTO SUG",
+    "Status": "MEMBER",
+    "Faculty": "SAAT",
+    "Dept": "SST",
+    "RegNo": "20231417231",
+    "Validity": "2028",
+    "PhoneNo": "NIL",
+    "EmergencyNo": "",
+    "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/840d5855-438d-4ec4-ae15-fc6e434c7971.jpg",
+    "time": "2024-08-04 16:07:09",
+    "id": "311d0266-b6ef-4920-a75b-3172f65fd425",
+    "__v": 0
+},
+{
         "id": "2",
         "reg": "13478900951",
         "inNamer": {
