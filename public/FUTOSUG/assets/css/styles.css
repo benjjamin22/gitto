@@ -70,6 +70,9 @@ main>div span {
     font-size: 1rem;
     color: #717171;
 }
+.container.flip {
+    animation: flipdiv 2s infinite;
+}
 
 .container.flip {
     animation: flipdiv 2s infinite;
