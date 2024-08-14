@@ -1,6 +1,28 @@
 [{
 
     "Timestamp": "2024/05/29 3:35:27 PM GMT+1",
+    "inNamer": {
+        "Name": " NNEOMA",
+        "Mname": "UGOCHI",
+        "Surname": "NWAONJ"
+    },
+    "reg": "20221309895",
+    "inparentno": "08037722780",
+    "inparentno2": "05049624576",
+    "Status": "MEMBER",
+    "state": "IMO",
+    "localgovt": "NGOR OKPALA",
+    "bloodgroup": "O+",
+    "yearofadmin": "JAN.,2022",
+    "sex": "FEMALE",
+    "validity": "2022-2028",
+    "Dept": "Computer science ",
+    "Faculty": "SICT",
+    "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/images/344.jpg",
+    "id": "2"
+},{
+
+    "Timestamp": "2024/05/29 3:35:27 PM GMT+1",
     "Aname": {
         "Name": "Excel",
         "Mname": "Chiemerie",
