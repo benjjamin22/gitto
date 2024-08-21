@@ -771,32 +771,31 @@
             "id": "e88190f4-ea0a-4b2b-8464-3c9640852d5f6",
             "YT": "18",
             "__v": 0
-        }, {
-            "_id": {
-                "$oid": "66852db8ba7160004c4fa1ab"
-            },
+        }, 
+        {
             "Aname": {
-                "Name": "",
-                "Mname": "",
-                "Surname": ""
+                "Name": "STEPHANIE",
+                "Mname": "CHIDERA",
+                "Surname": "CHIEKWE"
             },
+            "_id": "66c58df84f33a891b4209f0c",
             "School": "NUASA IMSU",
-            "State": "IMO",
-            "LocalGovt": "",
-            "RegNo": "",
-            "Bloodgroup": "",
+            "Status": "MEMBER",
+            "State": "IMO ",
+            "LocalGovt": "OWERRI WEST ",
+            "RegNo": "202330891012CF",
+            "Bloodgroup": "O+",
             "Sex": "FEMALE",
-            "Validity": "2028",
-            "PhoneNo": "",
-            "EmergencyNo": "",
+            "Validity": "2024",
+            "PhoneNo": "08130784119",
+            "EmergencyNo": "09064232887",
             "Facebook": "",
-            "Instagram": "",
+            "Instagram": "Steph_anie18",
             "Tiktok": "",
             "Twitter": "",
             "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/081954a0-9122-4892-9118-34df1331c255.jpg",
-            "image": "61e8c041-3655-4449-957a-5bbaaff22b53",
-            "id": "e88190f4-ea0a-4b2b-8464-3c9640852d5f7",
-            "YT": "18",
+            "time": "2024-08-21 06:49:28",
+           "id": "e88190f4-ea0a-4b2b-8464-3c9640852d5f7",
             "__v": 0
         }, {
             "_id": {
