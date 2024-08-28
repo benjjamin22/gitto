@@ -18,7 +18,7 @@ async function getfecth() {
     // Loop over the products and create the product element
     const res = await fetch(url)
     const dataa = await res.json()
-    const data = dataa.filter(o => o.School === 'AMARAKU SECONDARY SCHOOL AMARAKU')
+    const data = dataa.filter(o => o.School === 'ANARA COMM SEC SCH')
         //productsWrapperEl.innerHTML = ''
     data.forEach((product) => {
         const productEl = createProductElement(product);
@@ -77,7 +77,7 @@ async function getmovieee() {
     let objects = document.getElementById("objects");
     const res = await fetch(url)
     const dataa = await res.json()
-    const data = dataa.filter(o => o.School === 'AMARAKU SECONDARY SCHOOL AMARAKU')
+    const data = dataa.filter(o => o.School === 'ANARA COMM SEC SCH')
     let allObject = data.filter((val) => {
         if (typeof val == 'object') {
             return true;
@@ -100,7 +100,7 @@ async function getmovie() {
     console.log(movieId)
     const res = await fetch(url)
     const dataa = await res.json()
-    const data = dataa.filter(o => o.School === 'AMARAKU SECONDARY SCHOOL AMARAKU')
+    const data = dataa.filter(o => o.School === 'ANARA COMM SEC SCH')
     let id = data.filter(ids => ids.id === movieId);
     console.log(id)
 
