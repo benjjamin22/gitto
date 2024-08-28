@@ -43,7 +43,6 @@ body {
 
 .images {
     width: 100%;
-    display: flex;
     justify-content: center;
     max-height: 490px;
     overflow-y: auto;
@@ -51,7 +50,7 @@ body {
 }
 
 .images .image-box {
-    margin: 8px 13px;
+    margin: 1px 1px;
 }
 
 .images .image-box img {
