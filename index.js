@@ -57,6 +57,7 @@ app.use('/futo', require('./routes/FUTOSUG'))
 app.use('/futol', require('./routes/futologin'))
 app.use('/nuasalogin', require('./routes/NUASAlogin'))
 app.use('/NUASA', require('./routes/NUASA'))
+app.use('/ogss', require('./routes/ogss'))
 
 // Error handler middleware
 app.use(errorHandler)
