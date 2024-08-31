@@ -1,0 +1,46 @@
+[{
+    "Aname": {
+        "Name": "BENJAMIN",
+        "Mname": "ORITSEJIMI",
+        "Surname": "EDIGBE"
+    },
+    "id": "66ce32bfe31ae5e59bb7d9be",
+    "Status": "STUDENT",
+    "School": "AMARAKU SECONDARY SCHOOL AMARAKU",
+    "YearofAdmin": "2023",
+    "Presentclass": "JSS3",
+    "DateofBirth": "JULY 18 1988",
+    "Gender": "MALE",
+    "Bloodgroup": "O+",
+    "ParentPhoneNo": "08037722780",
+    "ParentPhoneNo2": "09075773",
+    "NIN": "9847882873",
+    "HometownCommunity": "WARRI SOUTH IMOBSTATE",
+    "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/d8edd51c-c720-4773-938a-5189df708236.JPG",
+    "client": "VEENATE COMMUNICATION VENTURES",
+    "time": "2024-08-27 20:10:39",
+    "__v": 0
+},  {
+    "Aname": {
+        "Name": "KADUNNA",
+        "Mname": "SAMSON",
+        "Surname": "OLALINLE"
+    },
+    "_id": "66ce3f08ff2543c57f7dd3f5",
+    "Status": "STUDENT",
+    "School": "AMARAKU SECONDARY SCHOOL AMARAKU",
+    "YearofAdmin": "2022",
+    "Presentclass": "SSS3",
+    "DateofBirth": "JULY 18 1988",
+    "Gender": "MALE",
+    "Bloodgroup": "O+",
+    "ParentPhoneNo": "08037722780",
+    "ParentPhoneNo2": "09075773",
+    "NIN": "9847882873",
+    "HometownCommunity": "WARRI SOUTH IMOBSTATE",
+    "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/a9cf772b-dd58-46ca-844b-9deb67afb37b.JPG",
+    "client": "VEENATE COMMUNICATION VENTURES",
+    "time": "2024-08-27 21:03:04",
+    "id": "5356b191-4bba-43d3-9f0c-138f05cdafc9",
+    "__v": 0
+}]
