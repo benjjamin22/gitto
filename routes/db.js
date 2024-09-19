@@ -11,6 +11,9 @@ const API_BASE_URL = process.env.db
 let cache = apicache.middleware
 
 router.get('/', cache('2 minutes'), async(req, res, next) => {
+  res.header('Access-Control-Allow-Origin', yourExactHostname);
+  res.header('Access-Control-Allow-Credentials', true);
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');   
     try {
         const apiRes = await needle('get', `${API_BASE_URL}`)
         const data = apiRes.body
