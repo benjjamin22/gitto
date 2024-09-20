@@ -77,7 +77,7 @@ async function getmovieee() {
     let objects = document.getElementById("objects");
     const res = await fetch(url)
     const dataa = await res.json()
-    const data = dataa.filter(o => o.School === 'COMM SEC SCH MBEKE-OSU')
+    const data = dataa.filter(o => o.School === 'AMARAKU SECONDARY SCHOOL AMARAKU')
     let allObject = data.filter((val) => {
         if (typeof val == 'object') {
             return true;
@@ -100,7 +100,7 @@ async function getmovie() {
     console.log(movieId)
     const res = await fetch(url)
     const dataa = await res.json()
-    const data = dataa.filter(o => o.School === 'COMM SEC SCH MBEKE-OSU')
+    const data = dataa.filter(o => o.School === 'AMARAKU SECONDARY SCHOOL AMARAKU')
     let id = data.filter(ids => ids.id === movieId);
     console.log(id)
 
