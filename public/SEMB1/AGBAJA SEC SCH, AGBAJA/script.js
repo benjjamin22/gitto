@@ -3,7 +3,7 @@ const productsWrapperEl = document.getElementById('main');
 const form = document.getElementById('form')
 const checkEls = document.querySelectorAll('.check');
 const filtersContainer = document.getElementById('filters-container');
-url = '/db'
+url = '/nams'
 
 // Initialize cart item count
 
@@ -17,10 +17,10 @@ const productsEls = [];
 async function getfecth() {
     // Loop over the products and create the product element
     const res = await fetch(url)
-    const dataa = await res.json()
-    const data = dataa.filter(o => o.School === 'AMARAKU SECONDARY SCHOOL AMARAKU')
+    const {nuasa} = await res.json()
+    //const data = dataa.filter(o => o.School === 'AMARAKU SECONDARY SCHOOL AMARAKU')
         //productsWrapperEl.innerHTML = ''
-    data.forEach((product) => {
+    nuasa.forEach((product) => {
         const productEl = createProductElement(product);
         productsEls.push(productEl);
         productsWrapperEl.appendChild(productEl);
