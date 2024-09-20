@@ -18,7 +18,7 @@ async function getfecth() {
     // Loop over the products and create the product element
     const res = await fetch(url)
     const dataa = await res.json()
-    const data = dataa.filter(o => o.School === 'COMM SEC SCH MBEKE-OSU')
+    const data = dataa.filter(o => o.School === 'AMARAKU SECONDARY SCHOOL AMARAKU')
         //productsWrapperEl.innerHTML = ''
     data.forEach((product) => {
         const productEl = createProductElement(product);
