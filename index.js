@@ -20,6 +20,18 @@ app.use(express.json())
 //app.get(["/", "/index.html"], (req, res) => {
 //  res.sendFile(__dirname + "/index.html");
 //});
+
+const serverUrl = 'https://mymongoose.onrender.com';
+
+const keepAlive = () => {
+    axios.get(serverUrl)
+        .then(response => {
+            console.log(`server response with status:${response.status}`)
+        })
+        .catch(error => {
+            console.log(`error keeping server alive:${error.message}`)
+        })
+}
 app.set("views", __dirname + "/views");
 app.set('view engine', 'ejs');
 
