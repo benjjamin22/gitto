@@ -20,7 +20,7 @@ app.use(express.json())
 //app.get(["/", "/index.html"], (req, res) => {
 //  res.sendFile(__dirname + "/index.html");
 //});
-
+app.set("views", __dirname + "/views");
 app.set('view engine', 'ejs');
 
 //function keepServerAwaike() {
@@ -92,3 +92,5 @@ app.use('/db', require('./routes/db'))
 app.use(errorHandler)
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+
+module.exports = app;
