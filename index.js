@@ -21,7 +21,7 @@ app.use(express.json())
 //  res.sendFile(__dirname + "/index.html");
 //});
 
-const serverUrl = 'https://gitto.onrender.com/ISEMB.html';
+const serverUrl = 'https://gitto.onrender.com';
 
 const keepAlive = () => {
     axios.get(serverUrl)
