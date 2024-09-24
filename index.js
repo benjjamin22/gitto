@@ -20,6 +20,7 @@ app.use(express.json())
 //app.get(["/", "/index.html"], (req, res) => {
 //  res.sendFile(__dirname + "/index.html");
 //});
+
 app.set("views", __dirname + "/views");
 app.set('view engine', 'ejs');
 
@@ -40,6 +41,8 @@ app.set('view engine', 'ejs');
 //max: 100,
 //})
 //app.use(limiter)
+
+console.log('Keep-alive script started.');
 app.set('trust proxy', 1)
 
 // Enable cors
