@@ -92,3 +92,5 @@ app.use('/db', require('./routes/db'))
 app.use(errorHandler)
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+
+module.exports = app;
