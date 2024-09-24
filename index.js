@@ -21,17 +21,6 @@ app.use(express.json())
 //  res.sendFile(__dirname + "/index.html");
 //});
 
-const serverUrl = 'https://gitto.onrender.com';
-
-const keepAlive = () => {
-    axios.get(serverUrl)
-        .then(response => {
-            console.log(`server response with status:${response.status}`)
-        })
-        .catch(error => {
-            console.log(`error keeping server alive:${error.message}`)
-        })
-}
 app.set("views", __dirname + "/views");
 app.set('view engine', 'ejs');
 
@@ -52,10 +41,6 @@ app.set('view engine', 'ejs');
 //max: 100,
 //})
 //app.use(limiter)
-cron.schedule('*/14 * * * *', () => {
-    console.log('Sending keep-alive request to server...');
-    keepAlive();
-});
 
 console.log('Keep-alive script started.');
 app.set('trust proxy', 1)
