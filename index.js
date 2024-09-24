@@ -20,7 +20,7 @@ app.use(express.json())
 //app.get(["/", "/index.html"], (req, res) => {
 //  res.sendFile(__dirname + "/index.html");
 //});
-
+app.set("views", __dirname + "/views");
 app.set('view engine', 'ejs');
 
 //function keepServerAwaike() {
