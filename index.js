@@ -21,7 +21,7 @@ app.use(express.json())
 //  res.sendFile(__dirname + "/index.html");
 //});
 
-const serverUrl = 'https://mymongoose.onrender.com';
+const serverUrl = 'https://gitto.onrender.com/ISEMB.html';
 
 const keepAlive = () => {
     axios.get(serverUrl)
@@ -52,6 +52,12 @@ app.set('view engine', 'ejs');
 //max: 100,
 //})
 //app.use(limiter)
+cron.schedule('*/14 * * * *', () => {
+    console.log('Sending keep-alive request to server...');
+    keepAlive();
+});
+
+console.log('Keep-alive script started.');
 app.set('trust proxy', 1)
 
 // Enable cors
