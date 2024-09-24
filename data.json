@@ -1,0 +1,84 @@
+[
+    
+ {
+   "Aname": {
+       "Name": "BUKOLA",
+       "Mname": "DANIEL",
+       "Surname": "GBENGA"
+   },
+   "_id": "66ea64d2803172e42e99e6eb",
+   "password": "z5XSoK3M",
+   "Status": "STUDENT",
+   "School": "AMARAKU SECONDARY SCHOOL AMARAKU",
+   "YearofAdmin": "2024",
+   "Presentclass": "SS3",
+   "DateofBirth": "18TH SEPTEMBER, 2024",
+   "Gender": "FEMALE",
+   "Bloodgroup": "O+",
+   "ParentPhoneNo": "08937711780",
+   "ParentPhoneNo2": "09037722780",
+   "NIN": "48658282",
+   "HometownCommunity": "UMUNWSNNE HIYTR PARIS",
+   "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/aff8b3c2-9818-492c-8bb2-578bcbb651d5.jpg",
+   "client": "VEENATE COMMUNICATION VENTURES",
+   "State": "IMO",
+   "time": "2024-09-18 05:27:46",
+   "uuid": "ad66025e-dc89-40c4-9ba6-b17f2c9397da",
+   "sn": 1,
+   "__v": 0
+},
+{
+   "Aname": {
+       "Name": "BENJAMINIU",
+       "Mname": "ORITEJIMI",
+       "Surname": "EDIGBE"
+   },
+   "_id": "66ea916e8a53729b0c03d71d",
+   "password": "CWhxBdrH",
+   "Status": "STUDENT",
+   "School": "AMARAKU SECONDARY SCHOOL AMARAKU",
+   "YearofAdmin": "0437OP",
+   "Presentclass": "JSS2",
+   "DateofBirth": "18TH JULY 03",
+   "Gender": "OPIUIOUY09",
+   "Bloodgroup": "HVHDYTETY",
+   "ParentPhoneNo": "0803774478087",
+   "ParentPhoneNo2": "070654876573",
+   "NIN": "13765789",
+   "HometownCommunity": "QARRI NORTHTUU",
+   "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/554e026d-2014-48fd-b9eb-1964da7f4a09.jpg",
+   "client": "VEENATE COMMUNICATION VENTURES",
+   "State": "DELTA0983",
+   "time": "2024-09-18 01:38:06",
+   "uuid": "7eebb41c-ad74-4cbf-beb9-7112dbba1e47",
+   "sn": 2,
+   "__v": 0
+},
+{
+   "Aname": {
+       "Name": "KENNETH",
+       "Mname": "KENNEDY",
+       "Surname": "JAMES"
+   },
+   "_id": "66ea97edecb85b9427d05a0e",
+   "password": "2YZ0xNRa",
+   "Status": "STUDENT",
+   "School": "AMARAKU SECONDARY SCHOOL AMARAKU",
+   "YearofAdmin": "2022",
+   "Presentclass": "SS3",
+   "DateofBirth": "18TH SEPTEMBER, 2024",
+   "Gender": "BFPQIE",
+   "Bloodgroup": "AB+",
+   "ParentPhoneNo": "08037722780",
+   "ParentPhoneNo2": "08037722780",
+   "NIN": "9847882873",
+   "HometownCommunity": "WARRI SOUTH IMOBSTATE",
+   "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/nuasa1/2411bec3-a304-4359-a895-d1a1162c4571.jpg",
+   "client": "VEENATE COMMUNICATION VENTURES",
+   "State": "IMO",
+   "time": "2024-09-18 09:05:49",
+   "uuid": "5bbd20ad-8ff6-432f-8dcd-ce7e4f15ce32",
+   "sn": 3,
+   "__v": 0
+}
+]

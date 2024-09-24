@@ -1,6 +1,10 @@
 const express = require('express')
 const cors = require('cors')
+const bodyParser = require('body-parser');
+const accounts = require('./data.json');
     //const http = require('http')
+
+  
 
 
 //const rateLimit = require('express-rate-limit')
@@ -17,7 +21,7 @@ app.use(express.json())
 //  res.sendFile(__dirname + "/index.html");
 //});
 
-
+app.set('view engine', 'ejs');
 
 //function keepServerAwaike() {
 //axios.get('https://mymongoose.onrender.com', (res) => {
@@ -42,7 +46,32 @@ app.set('trust proxy', 1)
 app.use(cors())
 
 // Set static folder
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.post('/login', async (req, res) => {
+    try{
+        const foundUser = accounts.find((data) => req.body.password === data.password);
+        if (foundUser) {
+    
+            //let submittedPass = req.body.password; 
+            
+    
+            //const passwordMatch = await bcrypt.compare(submittedPass, storedPass);
+            //if (passwordMatch) {
+                //let usrname = foundUser.Gender;
+                res.render('result',{Name:foundUser.Aname.Name,Mname:foundUser.Aname.Mname,Surname:foundUser.Aname.Surname,NIN:foundUser.NIN,Gender:foundUser.Gender,DateofBirth:foundUser.DateofBirth,Presentclass:foundUser.Presentclass,Bloodgroup:foundUser.Bloodgroup,State:foundUser.State,School:foundUser.School,HometownCommunity:foundUser.HometownCommunity,ParentPhoneNo:foundUser.ParentPhoneNo,ParentPhoneNo2:foundUser.ParentPhoneNo2,picturepath:foundUser.picturepath,Status:foundUser.Status});
+                //res.send(`<div align ='center'><h2>login successful</h2></div><br><br><br><div align ='center'><h3>Hello ${usrname}</h3></div><br><br><div align='center'><a href='./lohtml'>logout</a></div>`);
+            } else {
+            res.send("<div align ='center'><h2>Invalid email or password</h2></div><br><br><div align ='center'><a href='./login.html'>login again</a></div>");
+            }
+        //}
+       
+    } catch{
+        res.send("Internal server error");
+    }
+});
+
 
 // Routes
 app.use('/api', require('./routes'))
