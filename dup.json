@@ -1,11 +1,11 @@
 [{
-  "Aname":
-    {"Name":"ONYEBUCHI",
+    "Aname": {
+      "Name":"ONYEBUCHI",
       "Mname":"EMMANUEL",
       "Surname":"OKORO"
     },
-    "Ddateofbirth":
-    {"Day":"21ST",
+    "Ddateofbirth": {
+      "Day":"21ST",
       "Month":"APRIL,",
       "Year":"2009"
     },
