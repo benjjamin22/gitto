@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser');
-const accounts = require('./semb.json');
+const accounts = require('./data.json');
     //const http = require('http')
 
   
@@ -54,7 +54,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/login', async (req, res) => {
     try{
-        const foundUser = accounts.find((data) => req.body.password === data.pine);
+        const foundUser = accounts.find((data) => req.body.Password === data.pine);
         if (foundUser) {
     
             //let submittedPass = req.body.password; 
@@ -63,8 +63,8 @@ app.post('/login', async (req, res) => {
             //const passwordMatch = await bcrypt.compare(submittedPass, storedPass);
             //if (passwordMatch) {
                 //let usrname = foundUser.Gender;
-                res.render('result',{Name:foundUser.Aname.Name,Mname:foundUser.Aname.Mname,Surname:foundUser.Aname.Surname,NIN:foundUser.NIN,Gender:foundUser.Gender,Day:foundUser.Ddateofbirth..Day,Month:foundUser.Ddateofbirth..Month,Year:foundUser.Ddateofbirth..Year,Presentclass:foundUser.Presentclass,Bloodgroup:foundUser.Bloodgroup,State:foundUser.State,School:foundUser.School,HometownCommunity:foundUser.HometownCommunity,ParentPhoneNo:foundUser.ParentPhoneNo,ParentPhoneNo2:foundUser.ParentPhoneNo2,Picturepath:foundUser.client,Status:foundUser.Status});
-                //res.send(`<div align ='center'><h2>login successful</h2></div><br><br><br><div align ='center'><h3>Hello ${usrname}</h3></div><br><br><div align='center'><a href='./lohtml'>logout</a></div>`);
+                res.render('result',{Name:foundUser.Aname.Name,Mname:foundUser.Aname.Mname,Surname:foundUser.Aname.Surname,NIN:foundUser.NIN,Gender:foundUser.Gender,Day:foundUser.Ddateofbirth.Day,Month:foundUser.Ddateofbirth.Month,Year:foundUser.Ddateofbirth.Year,Presentclass:foundUser.Presentclass,Bloodgroup:foundUser.Bloodgroup,State:foundUser.State,School:foundUser.School,HometownCommunity:foundUser.HometownCommunity,ParentPhoneNo:foundUser.ParentPhoneNo,ParentPhoneNo2:foundUser.ParentPhoneNo2,Picturepath:foundUser.client,Status:foundUser.Status});
+                //res.send(`<div align ='center'><h2>login successful</h2></div><br><br><br><div align ='center'><h3>Hello </h3></div><br><br><div align='center'><a href='./lohtml'>logout</a></div>`);
             } else {
             res.send("<div align ='center'><h2>Invalid email or password</h2></div><br><br><div align ='center'><a href='./login.html'>login again</a></div>");
             }
@@ -72,6 +72,7 @@ app.post('/login', async (req, res) => {
        
     } catch{
         res.send("Internal server error");
+        
     }
 });
 
