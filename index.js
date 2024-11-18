@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser');
-const accounts = require('./dup.json');
+const accounts = require('./semb.json');
     //const http = require('http')
 
   
