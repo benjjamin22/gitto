@@ -54,7 +54,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/login', async (req, res) => {
     try{
-        const foundUser = accounts.find((data) => req.body.password === data.pine);
+        const foundUser = accounts.find((data) => req.body.pine === data.pine);
         if (foundUser) {
     
             //let submittedPass = req.body.password; 
