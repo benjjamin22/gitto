@@ -63,11 +63,7 @@ app.post('/login', async (req, res) => {
             //const passwordMatch = await bcrypt.compare(submittedPass, storedPass);
             //if (passwordMatch) {
                 //let usrname = foundUser.Gender;
-                //res.render('result',{Name:foundUser.Aname.Name,Mname:foundUser.Aname.Mname,
-                Surname:foundUser.Aname.Surname,NIN:foundUser.NIN,Gender:foundUser.Gender,Day:foundUser.DdateofBirth.Day,
-                Month:foundUser.DdateofBirth.Month,Year:foundUser.DdateofBirth.Year,Presentclass:foundUser.Presentclass,
-                Bloodgroup:foundUser.Bloodgroup,State:foundUser.State,School:foundUser.School,HometownCommunity:foundUser.HometownCommunity,
-                ParentPhoneNo:foundUser.ParentPhoneNo,ParentPhoneNo2:foundUser.ParentPhoneNo2,Picturepath:foundUser.client,Status:foundUser.Status});
+                //res.render('result',{Name:foundUser.Aname.Name,Mname:foundUser.Aname.Mname,Surname:foundUser.Aname.Surname,NIN:foundUser.NIN,Gender:foundUser.Gender,Day:foundUser.DdateofBirth.Day,Month:foundUser.DdateofBirth.Month,Year:foundUser.DdateofBirth.Year,Presentclass:foundUser.Presentclass,Bloodgroup:foundUser.Bloodgroup,State:foundUser.State,School:foundUser.School,HometownCommunity:foundUser.HometownCommunity,ParentPhoneNo:foundUser.ParentPhoneNo,ParentPhoneNo2:foundUser.ParentPhoneNo2,Picturepath:foundUser.client,Status:foundUser.Status});
                 res.send(`<div align ='center'><h2>login successful</h2></div><br><br><br><div align ='center'><h3>Hello ${usrname}</h3></div><br><br><div align='center'><a href='./lohtml'>logout</a></div>`);
             } else {
             res.send("<div align ='center'><h2>Invalid email or password</h2></div><br><br><div align ='center'><a href='./login.html'>login again</a></div>");
