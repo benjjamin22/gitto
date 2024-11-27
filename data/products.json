@@ -18279,5 +18279,36 @@
     "id": "be0a529c-6f97-42bc-95fe-a40c7348486e",
     "idp": "483",
     "__v": 0
-}
+},
+    {
+        "Aname": {
+            "Name": "EKEH",
+            "Mname": "MERCY",
+            "Surname": "MMESOMA"
+        },
+        "Ddateofbirth": {
+            "Day": "18TH",
+            "Month": "JULY,",
+            "Year": "2010"
+        },
+        "_id": "6730b58e42f902d4fb6e363d",
+        "Status": "STUDENT",
+        "School": "GOVERNMENT SECONDARY SCHOOL UMUAHIA ",
+        "YearofAdmin": "2022",
+        "Presentclass": "SS3",
+        "Gender": "FEMALE",
+        "Bloodgroup": "O+",
+        "ParentPhoneNo": "08037734890",
+        "ParentPhoneNo2": "-",
+        "NIN": "-",
+        "HometownCommunity": "UMUAHIA",
+        "client": "https://benjjamin22.github.io/filter/ISEC/ADSSO/100000.jpg",
+        "State": "ABIA",
+        "pin": "0NK9YGR8TU",
+        "pine": "1354879535",
+        "time": "2024-11-10 13:30:54",
+        "id": "66e2d27be17f412a8719c06aae",
+        "sn": 1523,
+        "__v": 0
+    }
 ]
