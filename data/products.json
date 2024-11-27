@@ -6,33 +6,6 @@
             "Surname": "GBENGA"
         },
         "_id": "66ea64d2803172e42e99e6eb",
-        "id": "66е2d271be17f412a8719с06аae",
-        "Status": "STUDENT",
-        "School": "AMARAKU SECONDARY SCHOOL AMARAKU",
-        "YearofAdmin": "2024",
-        "Presentclass": "SS3",
-        "DateofBirth": "18TH SEPTEMBER, 2024",
-        "Gender": "FEMALE",
-        "Bloodgroup": "O+",
-        "ParentPhoneNo": "08937711780",
-        "ParentPhoneNo2": "09037722780",
-        "NIN": "48658282",
-        "HometownCommunity": "UMUNWSNNE HIYTR PARIS",
-        "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/images/344.jpg",
-        "client": "VEENATE COMMUNICATION VENTURES",
-        "State": "IMO",
-        "time": "2024-09-18 05:27:46",
-        "uuid": "ad66025e-dc89-40c4-9ba6-b17f2c9397da",
-        "sn": "1",
-        "__v": 0
-    },
-    {
-        "Aname": {
-            "Name": "BUKOLA",
-            "Mname": "DANIEL",
-            "Surname": "GBENGA"
-        },
-        "_id": "66ea64d2803172e42e99e6eb",
         "id": "z5XSoK3M",
         "Status": "STUDENT",
         "School": "AMARAKU SECONDARY SCHOOL AMARAKU",
@@ -18306,32 +18279,5 @@
     "id": "be0a529c-6f97-42bc-95fe-a40c7348486e",
     "idp": "483",
     "__v": 0
-},
-{
-    "Aname": {
-        "Name": "EKEH",
-        "Mname": "MERCY",
-        "Surname": "MMESOMA"
-        },
-        "DateofBirth": "18TH JULY,2010",
-        "_id": "6730b58e42f902d4fb6e363d",
-        "Status": "STUDENT",
-        "School": "GOVERNMENT SECONDARY SCHOOL UMUAHIA ",
-        "YearofAdmin": "2022",
-        "Presentclass": "SS3",
-        "Gender": "FEMALE",
-        "Bloodgroup": "O+",
-        "ParentPhoneNo": "08037734890",
-        "ParentPhoneNo2": "-",
-        "NIN": "-",
-        "HometonCommunity": "UMUAHIA",
-        "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/futop/483.jpg",
-        "State": "ABIA",
-        "pin": "0NK9YGR8TU",
-        "pine": "1354879535",
-        "time": "2024-11-10 13:30:54",
-        "id": "66е2d271be1",
-        "sn": 1523,
-        "__v": 0
 }
 ]
