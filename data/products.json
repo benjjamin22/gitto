@@ -1,4 +1,31 @@
-[ 
+[     
+    {
+        "Aname": {
+            "Name": "MMESOMA",
+            "Mname": "MARY",
+            "Surname": "EKEH"
+        },
+        "_id": "66ea64d2803172e42e99e6eb",
+        "id": "66е2d27be17f412a8719с06аae",
+        "Status": "STUDENT",
+        "School": "GOVEENMENT SECONDARY SCHOOL,UMUAHIA",
+        "YearofAdmin": "2024",
+        "Presentclass": "SS3",
+        "DateofBirth": "10TH JULY, 2020",
+        "Gender": "FEMALE",
+        "Bloodgroup": "O+",
+        "ParentPhoneNo": "08937711780",
+        "ParentPhoneNo2": "09037722780",
+        "NIN": "48658282",
+        "HometownCommunity": "UMUNWSNNE HIYTR PARIS",
+        "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/images/344.jpg",
+        "client": "VEENATE COMMUNICATION VENTURES",
+        "State": "IMO",
+        "time": "2024-09-18 05:27:46",
+        "uuid": "ad66025e-dc89-40c4-9ba6-b17f2c9397da",
+        "sn": "189435",
+        "__v": 0
+    },
     {
         "Aname": {
             "Name": "BUKOLA",
