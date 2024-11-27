@@ -18280,11 +18280,11 @@
     "idp": "483",
     "__v": 0
 },
-    {
-        "Aname": {
-            "Name": "EKEH",
-            "Mname": "MERCY",
-            "Surname": "MMESOMA"
+{
+    "Aname": {
+        "Name": "EKEH",
+        "Mname": "MERCY",
+        "Surname": "MMESOMA"
         },
         "DateofBirth": "18TH JULY,2010",
         "_id": "6730b58e42f902d4fb6e363d",
@@ -18303,8 +18303,8 @@
         "pin": "0NK9YGR8TU",
         "pine": "1354879535",
         "time": "2024-11-10 13:30:54",
-        "id": "66е2d27be17f412a8719с06аae",
+        "id": "66е2d271be17f412a8719с06аae",
         "sn": 1523,
         "__v": 0
-    }
+}
 ]
