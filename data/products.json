@@ -18286,11 +18286,7 @@
             "Mname": "MERCY",
             "Surname": "MMESOMA"
         },
-        "Ddateofbirth": {
-            "Day": "18TH",
-            "Month": "JULY,",
-            "Year": "2010"
-        },
+        "DateofBirth": "18TH JULY,2010",
         "_id": "6730b58e42f902d4fb6e363d",
         "Status": "STUDENT",
         "School": "GOVERNMENT SECONDARY SCHOOL UMUAHIA ",
@@ -18301,8 +18297,8 @@
         "ParentPhoneNo": "08037734890",
         "ParentPhoneNo2": "-",
         "NIN": "-",
-        "HometownCommunity": "UMUAHIA",
-        "client": "https://benjjamin22.github.io/filter/utilitie/nuasa/futop/483.jpg",
+        "HometonCommunity": "UMUAHIA",
+        "picturepath": "https://benjjamin22.github.io/filter/utilitie/nuasa/futop/483.jpg",
         "State": "ABIA",
         "pin": "0NK9YGR8TU",
         "pine": "1354879535",
